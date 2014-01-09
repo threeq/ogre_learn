@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="qt_orge" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Config/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/qt_orge" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/qt_orge" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="/opt/QtSDK/Desktop/Qt/4.8.1/gcc/include" />
+			<Add directory="/opt/QtSDK/Desktop/Qt/4.8.1/gcc/include/QtGui" />
+			<Add directory="/usr/include/OIS" />
+			<Add directory="/opt/QtSDK/QtSDK/Desktop/Qt/4.8.1/gcc/include/QtCore" />
+			<Add directory="/usr/local/include/OGRE" />
+		</Compiler>
+		<Linker>
+			<Add option="`pkg-config --libs OGRE`" />
+			<Add library="QtCore" />
+			<Add library="QtGui" />
+			<Add library="boost_system" />
+			<Add library="OIS" />
+			<Add directory="/opt/QtSDK/Desktop/Qt/4.8.1/gcc/lib" />
+		</Linker>
+		<ExtraCommands>
+			<Add before="/opt/QtSDK/QtSDK/Desktop/Qt/4.8.1/gcc/bin/moc FOgreWidget.h -i -o FOgreWidget.moc" />
+			<Mode after="always" />
+		</ExtraCommands>
+		<Unit filename="FOgreWidget.cpp" />
+		<Unit filename="FOgreWidget.h" />
+		<Unit filename="config/ogre.cfg">
+			<Option virtualFolder="Config/" />
+		</Unit>
+		<Unit filename="config/plugins.cfg">
+			<Option virtualFolder="Config/" />
+		</Unit>
+		<Unit filename="config/resources.cfg">
+			<Option virtualFolder="Config/" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+			<code_completion />
+			<envvars set="default" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
