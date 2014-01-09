@@ -32,13 +32,13 @@ class FOgreWidget : public QWidget
 
         void paintEvent(QPaintEvent *evt);//呵，当然得处理了
 
-        void keyPressEvent(QKeyEvent *evt);
+        virtual void keyPressEvent(QKeyEvent *evt);
 //void keyReleaseEvent(QKeyEvent* evt);
 
         void mousePressEvent(QMouseEvent *evt) ;
 
 //void mouseReleaseEvent(QMouseEvent* evt);
-//void mouseMoveEvent(QMouseEvent* evt);
+        void mouseMoveEvent(QMouseEvent* evt);
 
         void wheelEvent(QWheelEvent *evt);
 
@@ -52,6 +52,7 @@ class FOgreWidget : public QWidget
 
         void updateDraw() ;
         void CreateLight() ;
+
         Ogre::SceneManager *m_pSceneManager ;
         Ogre::RenderWindow *m_pRenderWindow;
         Ogre::Camera *m_pDefCamera;
@@ -64,6 +65,9 @@ class FOgreWidget : public QWidget
         bool Initialize() ;
     private:
         QString  m_strInsName_ ;
+        float rotX, rotY;
+        Ogre::Vector2 mousePos;
+        bool mouseLeftPressed,mouseRightPressed,mouseMiddleBtn;
 };
 
 #endif // FOGREWIDGET_H

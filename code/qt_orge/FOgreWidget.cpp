@@ -13,6 +13,7 @@ FOgreWidget::FOgreWidget(QWidget *parent,QString strInsName) :
     m_pMainEnt= 0 ;
     m_pMainNode= 0 ;
     m_pMainLight = 0 ;
+    setFocusPolicy(Qt::StrongFocus);
 }
 
 FOgreWidget::~FOgreWidget()
@@ -44,15 +45,56 @@ void FOgreWidget::resizeEvent(QResizeEvent *evt)
 }
 void FOgreWidget::keyPressEvent(QKeyEvent *evt)
 {
-
-    QWidget::keyPressEvent(evt) ;
+    std::cout <<"enter key: " << std::endl;
+    if(m_pMainEnt  !=  NULL  &&  m_pMainNode  !=  NULL){
+        switch(evt->key()){
+        case  Qt::Key_W:
+        case  Qt::Key_Up:
+            rotX  =  -0.1;
+            m_pMainNode->pitch(Ogre::Radian(rotX));
+            break;
+        case  Qt::Key_S:
+        case  Qt::Key_Down:
+            rotX  =  0.1;
+            m_pMainNode->pitch(Ogre::Radian(rotX));
+            break;
+        case  Qt::Key_A:
+        case  Qt::Key_Left:
+            rotY  =  -0.1;
+            m_pMainNode->yaw(Ogre::Radian(rotY));
+            break;
+        case  Qt::Key_D:
+        case  Qt::Key_Right:
+            rotY  =  0.1;
+            m_pMainNode->yaw(Ogre::Radian(rotY));
+            break;
+        }
+    }
+	else
+	{
+		QWidget::keyPressEvent(evt);
+	}
 
 }
 
 void FOgreWidget::mousePressEvent(QMouseEvent *evt)
 {
+    std::cout <<"moue press" << std::endl;
+    QWidget::mousePressEvent(evt);
+    if(evt->button()  ==  Qt::LeftButton)
+        mouseLeftPressed  =  true;
+    if(evt->button()  ==  Qt::RightButton){
+        mouseRightPressed  =  true;
+        mousePos  =  Ogre::Vector2(evt->x(),  evt->y());
+    }
+    if(evt->button()  ==  Qt::MidButton)
+        mouseMiddleBtn  =  true;
+}
 
-    QWidget::mousePressEvent(evt) ;
+void FOgreWidget::mouseMoveEvent(QMouseEvent* evt)
+{
+    std::cout <<"moue move" << std::endl;
+    QWidget::mouseMoveEvent(evt);
 }
 
 void FOgreWidget::wheelEvent(QWheelEvent *evt)
@@ -125,8 +167,8 @@ bool FOgreWidget::CreateDefaultCamera()
     assert(m_pRenderWindow);
 //m_pDefCamera = m_pSceneManager->createCamera(strName);
     m_pDefCamera = m_pSceneManager->createCamera("MyCamera");
-    m_pDefCamera->setPosition(Ogre::Vector3(0,0,200));
-    m_pDefCamera->lookAt(Ogre::Vector3(50,80,0));
+    m_pDefCamera->setPosition(Ogre::Vector3(100,100,100));
+    m_pDefCamera->lookAt(Ogre::Vector3(0,0,0));
     m_pDefCamera->setNearClipDistance(90);
     m_pDefCamera->setFarClipDistance(1000);
     m_pDefViewport = m_pRenderWindow->addViewport(m_pDefCamera);
@@ -193,9 +235,9 @@ bool FOgreWidget::CreateRenderWindow()
     resizeEvent( NULL );
 
     setAttribute( Qt::WA_PaintOnScreen );
-    setAttribute( Qt::WA_NoSystemBackground );
-    setAttribute( Qt::WA_NoBackground );
-    setAttribute( Qt::WA_NativeWindow );
+    //setAttribute( Qt::WA_NoSystemBackground );
+    //setAttribute( Qt::WA_NoBackground );
+    //setAttribute( Qt::WA_NativeWindow );
     setAttribute( Qt::WA_OpaquePaintEvent );
 
     if(m_pRenderWindow == 0) return false;
@@ -273,14 +315,21 @@ void FOgreWidget::updateDraw()
         m_pRoot->_fireFrameStarted();
         m_pRenderWindow->update();
         //m_pDefCamera->moveRelative(mDirection);
-        //m_pDefCamera->yaw(Ogre::Radian(1));
-        //m_pDefCamera->pitch(Ogre::Radian(2));
+        //float xClient = 0.001;
+        //if(m_x!=0) {
+        //    xClient = 1.0/m_x;
+        //    std::cout<<m_x<< " : " << xClient<<"\n";
+        //}
+        //m_pDefCamera->yaw(Ogre::Radian(xClient));
+        //m_pDefCamera->pitch(Ogre::Radian(m_y));
         m_pRoot->_fireFrameEnded();
     }
 }
+
+// 设置环境光
 void FOgreWidget::CreateLight()
 {
-    m_pSceneManager->setAmbientLight(Ogre::ColourValue(0.5, 0.5, 0.5));
+    m_pSceneManager->setAmbientLight(Ogre::ColourValue(0.9, 0.5, 0.5));
     m_pMainLight = m_pSceneManager->createLight("mainLight");
     m_pMainLight->setPosition(200,200,400);
 }
