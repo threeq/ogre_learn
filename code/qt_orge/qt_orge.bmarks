@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <BrowseTracker_layout_file>
 	<ActiveTarget name="Debug" />
-	<File name="FOgreWidget.cpp" open="1" top="1" tabpos="1">
-		<Cursor position="269" topLine="93" />
-		<BrowseMarks positions="1949,2049,2721,5951,6198,6879,6978,7117,7235" />
-		<Book_Marks positions="6015,6912,2730" />
+	<File name="config/resources.cfg" open="1" top="0" tabpos="3">
+		<Cursor position="1251" topLine="0" />
 	</File>
-	<File name="config/resources.cfg" open="0" top="0" tabpos="0">
-		<Cursor position="491" topLine="24" />
+	<File name="FOgreWidget.h" open="1" top="0" tabpos="2">
+		<Cursor position="1020" topLine="36" />
+		<BrowseMarks positions="255,321,887,931,1442,1677" />
+		<Book_Marks positions="0,945" />
 	</File>
-	<File name="FOgreWidget.h" open="0" top="0" tabpos="3">
-		<Cursor position="1679" topLine="14" />
-		<BrowseMarks positions="255,321,1427" />
-	</File>
-	<File name="main.cpp" open="0" top="0" tabpos="2">
-		<Cursor position="306" topLine="0" />
+	<File name="main.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="422" topLine="0" />
 		<BrowseMarks positions="145,166,207" />
+	</File>
+	<File name="FOgreWidget.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="1689" topLine="51" />
+		<BrowseMarks positions="766,1030,1210,1691,1877,1997,9059,9596" />
+		<Book_Marks positions="6015,6912,2730,9645" />
 	</File>
 </BrowseTracker_layout_file>

@@ -50,22 +50,22 @@ void FOgreWidget::keyPressEvent(QKeyEvent *evt)
         switch(evt->key()){
         case  Qt::Key_W:
         case  Qt::Key_Up:
-            rotX  =  -0.1;
+            rotX  =  -0.01;
             m_pMainNode->pitch(Ogre::Radian(rotX));
             break;
         case  Qt::Key_S:
         case  Qt::Key_Down:
-            rotX  =  0.1;
+            rotX  =  0.01;
             m_pMainNode->pitch(Ogre::Radian(rotX));
             break;
         case  Qt::Key_A:
         case  Qt::Key_Left:
-            rotY  =  -0.1;
+            rotY  =  -0.01;
             m_pMainNode->yaw(Ogre::Radian(rotY));
             break;
         case  Qt::Key_D:
         case  Qt::Key_Right:
-            rotY  =  0.1;
+            rotY  =  0.01;
             m_pMainNode->yaw(Ogre::Radian(rotY));
             break;
         }
