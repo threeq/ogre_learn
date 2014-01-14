@@ -94,6 +94,8 @@ protected:
     Ogre::RenderWindow* mWindow;
     Ogre::String mResourcesCfg;
     Ogre::String mPluginsCfg;
+    Ogre::String mOgreCfg;
+    Ogre::String mLogFile;
 
     // OgreBites
     OgreBites::SdkTrayManager* mTrayMgr;

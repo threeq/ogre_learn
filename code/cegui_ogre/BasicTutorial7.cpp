@@ -14,6 +14,13 @@ This source file is part of the
       http://www.ogre3d.org/tikiwiki/
 -----------------------------------------------------------------------------
 */
+
+#include <CEGUI/System.h>
+#include <CEGUI/Logger.h>
+#include <CEGUI/RendererModules/Ogre/ResourceProvider.h>
+#include <CEGUI/RendererModules/Ogre/ImageCodec.h>
+#include <CEGUI/RendererModules/Ogre/Renderer.h>
+
 #include "BasicTutorial7.h"
 
 //-------------------------------------------------------------------------------------
@@ -30,8 +37,17 @@ BasicTutorial7::~BasicTutorial7(void)
 //-------------------------------------------------------------------------------------
 void BasicTutorial7::createScene(void)
 {
+
 //    Ogre::RenderTarget * target = new Ogre::RenderTarget();
-    mRenderer = &CEGUI::OgreRenderer::bootstrapSystem();
+    //mRenderer = &CEGUI::OgreRenderer::bootstrapSystem();
+    mRenderer = &CEGUI::OgreRenderer::create();
+    CEGUI::OgreResourceProvider& rp = CEGUI::OgreRenderer::createOgreResourceProvider();
+    CEGUI::OgreImageCodec& ic = CEGUI::OgreRenderer::createOgreImageCodec();
+    CEGUI::System::create(*mRenderer, &rp, 0, &ic, 0,  "", "logs/CEGUI.log");
+
+    // 设置日志文件，非追加方式
+    //CEGUI::Logger::getSingleton().setLogFilename("logs/CEGUI.log");
+
 
     CEGUI::ImageManager::setImagesetDefaultResourceGroup("Imagesets");
     CEGUI::Font::setDefaultResourceGroup("Fonts");
@@ -234,40 +250,3 @@ bool BasicTutorial7::quit(const CEGUI::EventArgs &e)
     mShutDown = true;
     return true;
 }
-
-
-#if OGRE_PLATFORM == OGRE_PLATFORM_WIN32
-#define WIN32_LEAN_AND_MEAN
-#include "windows.h"
-#endif
-
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-#if OGRE_PLATFORM == OGRE_PLATFORM_WIN32
-    INT WINAPI WinMain( HINSTANCE hInst, HINSTANCE, LPSTR strCmdLine, INT )
-#else
-    int main(int argc, char *argv[])
-#endif
-    {
-        // Create application object
-        BasicTutorial7 app;
-
-        try {
-            app.go();
-        } catch( Ogre::Exception& e ) {
-#if OGRE_PLATFORM == OGRE_PLATFORM_WIN32
-            MessageBox( NULL, e.getFullDescription().c_str(), "An exception has occured!", MB_OK | MB_ICONERROR | MB_TASKMODAL);
-#else
-            std::cerr << "An exception has occured: " <<
-                e.getFullDescription().c_str() << std::endl;
-#endif
-        }
-
-        return 0;
-    }
-
-#ifdef __cplusplus
-}
-#endif

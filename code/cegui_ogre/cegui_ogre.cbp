@@ -33,21 +33,21 @@
 			<Add option="-Wall" />
 			<Add option="`pkg-config --cflags OGRE`" />
 			<Add option="-fexceptions" />
-			<Add directory="../../libs/include" />
+			<Add directory="../../../../libs/include" />
 		</Compiler>
 		<Linker>
 			<Add library="GL" />
 			<Add library="boost_system" />
-			<Add library="../../libs/lib/libCEGUIBase-0.so" />
-			<Add library="../../libs/lib/libCEGUICommonDialogs-0.so" />
-			<Add library="../../libs/lib/libCEGUINullRenderer-0.so" />
-			<Add library="../../libs/lib/libCEGUIOgreRenderer-0.so" />
-			<Add library="../../libs/lib/libOgreMain.so" />
-			<Add library="../../libs/lib/libOgrePaging.so" />
-			<Add library="../../libs/lib/libOgreProperty.so" />
-			<Add library="../../libs/lib/libOgreRTShaderSystem.so" />
-			<Add library="../../libs/lib/libOgreTerrain.so" />
-			<Add library="../../libs/lib/libOIS-1.2.0.so" />
+			<Add library="../../../../libs/lib/libCEGUIBase-0.so" />
+			<Add library="../../../../libs/lib/libCEGUICommonDialogs-0.so" />
+			<Add library="../../../../libs/lib/libCEGUINullRenderer-0.so" />
+			<Add library="../../../../libs/lib/libCEGUIOgreRenderer-0.so" />
+			<Add library="../../../../libs/lib/libOgreMain.so" />
+			<Add library="../../../../libs/lib/libOgrePaging.so" />
+			<Add library="../../../../libs/lib/libOgreProperty.so" />
+			<Add library="../../../../libs/lib/libOgreRTShaderSystem.so" />
+			<Add library="../../../../libs/lib/libOgreTerrain.so" />
+			<Add library="../../../../libs/lib/libOIS-1.2.0.so" />
 			<Add directory="/bin/Debug" />
 			<Add directory="/bin/Release" />
 		</Linker>
@@ -55,6 +55,16 @@
 		<Unit filename="BaseApplication.h" />
 		<Unit filename="BasicTutorial7.cpp" />
 		<Unit filename="BasicTutorial7.h" />
+		<Unit filename="config/ogre.cfg">
+			<Option virtualFolder="Config/" />
+		</Unit>
+		<Unit filename="config/plugins.cfg">
+			<Option virtualFolder="Config/" />
+		</Unit>
+		<Unit filename="config/resources.cfg">
+			<Option virtualFolder="Config/" />
+		</Unit>
+		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
