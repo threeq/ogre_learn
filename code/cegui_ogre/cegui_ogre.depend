@@ -1,0 +1,3728 @@
+# depslib dependency file v1.0
+1365049302 source:/home/lq/workspace/ws_codeblocks/cegui_ogre/BaseApplication.cpp
+	"BaseApplication.h"
+
+1389626096 /home/lq/workspace/ws_codeblocks/cegui_ogre/BaseApplication.h
+	<OgreCamera.h>
+	<OgreEntity.h>
+	<OgreLogManager.h>
+	<OgreRoot.h>
+	<OgreViewport.h>
+	<OgreSceneManager.h>
+	<OgreRenderWindow.h>
+	<OgreConfigFile.h>
+	<OIS/OISEvents.h>
+	<OIS/OISInputManager.h>
+	<OIS/OISKeyboard.h>
+	<OIS/OISMouse.h>
+	<SdkTrays.h>
+	<SdkCameraMan.h>
+	<OISMultiTouch.h>
+	<macUtils.h>
+
+1346563635 /usr/local/include/OGRE/OgreCamera.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreMovableObject.h"
+	"OgreMatrix4.h"
+	"OgreVector3.h"
+	"OgrePlane.h"
+	"OgreQuaternion.h"
+	"OgreCommon.h"
+	"OgreFrustum.h"
+	"OgreRay.h"
+	"OgrePlaneBoundedVolume.h"
+
+1346563635 /usr/local/include/OGRE/OgrePrerequisites.h
+	"OgrePlatform.h"
+	<string>
+	"Threading/OgreThreadDefines.h"
+	"OgreStdHeaders.h"
+	"OgreMemoryAllocatorConfig.h"
+
+1346563635 /usr/local/include/OGRE/OgrePlatform.h
+	"OgreConfig.h"
+	<_mingw.h>
+
+1346563635 /usr/local/include/OGRE/OgreConfig.h
+	"OgreBuildSettings.h"
+
+1388570621 /usr/local/include/OGRE/OgreBuildSettings.h
+
+1346563635 /usr/local/include/OGRE/Threading/OgreThreadDefines.h
+	"OgreThreadDefinesNone.h"
+	"OgreThreadDefinesBoost.h"
+	"OgreThreadDefinesPoco.h"
+	"OgreThreadDefinesTBB.h"
+
+1346563635 /usr/local/include/OGRE/Threading/OgreThreadDefinesBoost.h
+
+1346563635 /usr/local/include/OGRE/OgreStdHeaders.h
+	<cassert>
+	<cstdio>
+	<cstdlib>
+	<ctime>
+	<cstring>
+	<cstdarg>
+	<cmath>
+	<vector>
+	<map>
+	<string>
+	<set>
+	<list>
+	<deque>
+	<queue>
+	<bitset>
+	<tr1/unordered_map>
+	<tr1/unordered_set>
+	<ext/hash_map>
+	<ext/hash_set>
+	<unordered_map>
+	<unordered_set>
+	<tr1/unordered_map>
+	<tr1/unordered_set>
+	<unordered_map>
+	<unordered_set>
+	<hash_set>
+	<hash_map>
+	<algorithm>
+	<functional>
+	<limits>
+	<fstream>
+	<iostream>
+	<iomanip>
+	<sstream>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+	<unistd.h>
+	<dlfcn.h>
+	<unistd.h>
+	<sys/param.h>
+	<CoreFoundation/CoreFoundation.h>
+	"Threading/OgreThreadHeaders.h"
+
+1346563635 /usr/local/include/OGRE/Threading/OgreThreadHeaders.h
+	"OgreThreadHeadersBoost.h"
+	"OgreThreadHeadersPoco.h"
+	"OgreThreadHeadersTBB.h"
+
+1346563635 /usr/local/include/OGRE/Threading/OgreThreadHeadersBoost.h
+	<boost/thread/tss.hpp>
+	<boost/thread/recursive_mutex.hpp>
+	<boost/thread/condition.hpp>
+	<boost/thread/thread.hpp>
+	<boost/thread/shared_mutex.hpp>
+	<boost/thread/locks.hpp>
+
+1346563635 /usr/local/include/OGRE/OgreMemoryAllocatorConfig.h
+	"OgreMemoryAllocatedObject.h"
+	"OgreMemoryAllocatedObject.h"
+	"OgreMemorySTLAllocator.h"
+	"OgreMemoryNedPooling.h"
+	"OgreMemoryNedAlloc.h"
+	"OgreMemoryStdAlloc.h"
+
+1346563635 /usr/local/include/OGRE/OgreMemoryAllocatedObject.h
+	"OgrePrerequisites.h"
+
+1346563635 /usr/local/include/OGRE/OgreMemorySTLAllocator.h
+	"OgrePrerequisites.h"
+	"OgreHeaderPrefix.h"
+	"OgreHeaderSuffix.h"
+
+1346563635 /usr/local/include/OGRE/OgreHeaderPrefix.h
+	"OgrePrerequisites.h"
+
+1346563635 /usr/local/include/OGRE/OgreHeaderSuffix.h
+	"OgrePrerequisites.h"
+
+1346563635 /usr/local/include/OGRE/OgreMemoryNedPooling.h
+
+1346563635 /usr/local/include/OGRE/OgreMemoryNedAlloc.h
+
+1346563635 /usr/local/include/OGRE/OgreMemoryStdAlloc.h
+	<memory>
+	<limits>
+	"OgreAlignedAllocator.h"
+	"OgreMemoryTracker.h"
+
+1346563635 /usr/local/include/OGRE/OgreAlignedAllocator.h
+
+1346563635 /usr/local/include/OGRE/OgreMemoryTracker.h
+	<tr1/unordered_map>
+	<ext/hash_map>
+
+1346563635 /usr/local/include/OGRE/OgreString.h
+	"OgrePrerequisites.h"
+	<tr1/unordered_map>
+	<ext/hash_map>
+
+1346563635 /usr/local/include/OGRE/OgreMovableObject.h
+	"OgrePrerequisites.h"
+	"OgreRenderQueue.h"
+	"OgreAxisAlignedBox.h"
+	"OgreSphere.h"
+	"OgreShadowCaster.h"
+	"OgreFactoryObj.h"
+	"OgreAnimable.h"
+	"OgreAny.h"
+	"OgreUserObjectBindings.h"
+
+1346563635 /usr/local/include/OGRE/OgreRenderQueue.h
+	"OgreHeaderPrefix.h"
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+	"OgreHeaderSuffix.h"
+
+1346563635 /usr/local/include/OGRE/OgreIteratorWrappers.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrapper.h"
+	"OgreIteratorRange.h"
+
+1346563635 /usr/local/include/OGRE/OgreIteratorWrapper.h
+
+1346563635 /usr/local/include/OGRE/OgreIteratorRange.h
+	<boost/range.hpp>
+
+1346563635 /usr/local/include/OGRE/OgreAxisAlignedBox.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreMatrix4.h"
+
+1346563635 /usr/local/include/OGRE/OgreVector3.h
+	"OgrePrerequisites.h"
+	"OgreMath.h"
+	"OgreQuaternion.h"
+
+1346563635 /usr/local/include/OGRE/OgreMath.h
+	"OgrePrerequisites.h"
+
+1346563635 /usr/local/include/OGRE/OgreQuaternion.h
+	"OgrePrerequisites.h"
+	"OgreMath.h"
+
+1346563635 /usr/local/include/OGRE/OgreMatrix4.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreMatrix3.h"
+	"OgreVector4.h"
+	"OgrePlane.h"
+
+1346563635 /usr/local/include/OGRE/OgreMatrix3.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1346563635 /usr/local/include/OGRE/OgreVector4.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1346563635 /usr/local/include/OGRE/OgrePlane.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1346563635 /usr/local/include/OGRE/OgreSphere.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1346563635 /usr/local/include/OGRE/OgreShadowCaster.h
+	"OgrePrerequisites.h"
+	"OgreRenderable.h"
+
+1346563635 /usr/local/include/OGRE/OgreRenderable.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreRenderOperation.h"
+	"OgreMatrix4.h"
+	"OgreMaterial.h"
+	"OgrePlane.h"
+	"OgreGpuProgram.h"
+	"OgreVector4.h"
+	"OgreException.h"
+	"OgreUserObjectBindings.h"
+
+1346563635 /usr/local/include/OGRE/OgreCommon.h
+	"OgreString.h"
+	<utility>
+	<sstream>
+
+1346563635 /usr/local/include/OGRE/OgreRenderOperation.h
+	"OgrePrerequisites.h"
+	"OgreVertexIndexData.h"
+
+1346563635 /usr/local/include/OGRE/OgreVertexIndexData.h
+	"OgrePrerequisites.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreHardwareIndexBuffer.h"
+
+1346563635 /usr/local/include/OGRE/OgreHardwareVertexBuffer.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBuffer.h"
+	"OgreSharedPtr.h"
+	"OgreColourValue.h"
+
+1346563635 /usr/local/include/OGRE/OgreHardwareBuffer.h
+	"OgrePrerequisites.h"
+	"OgreException.h"
+
+1346563635 /usr/local/include/OGRE/OgreException.h
+	"OgrePrerequisites.h"
+	"OgreHeaderPrefix.h"
+	"OgreString.h"
+	<exception>
+	"OgreHeaderSuffix.h"
+
+1346563635 /usr/local/include/OGRE/OgreSharedPtr.h
+	"OgrePrerequisites.h"
+
+1346563635 /usr/local/include/OGRE/OgreColourValue.h
+	"OgrePrerequisites.h"
+
+1346563635 /usr/local/include/OGRE/OgreHardwareIndexBuffer.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBuffer.h"
+	"OgreSharedPtr.h"
+
+1346563635 /usr/local/include/OGRE/OgreMaterial.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreIteratorWrappers.h"
+	"OgreCommon.h"
+	"OgreColourValue.h"
+	"OgreBlendMode.h"
+
+1346563635 /usr/local/include/OGRE/OgreResource.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSharedPtr.h"
+	"OgreStringInterface.h"
+	"OgreAtomicWrappers.h"
+
+1346563635 /usr/local/include/OGRE/OgreStringInterface.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreCommon.h"
+
+1346563635 /usr/local/include/OGRE/OgreAtomicWrappers.h
+	<signal.h>
+	"OgrePrerequisites.h"
+	"OgreException.h"
+	<windows.h>
+	<intrin.h>
+
+1346563635 /usr/local/include/OGRE/OgreBlendMode.h
+	"OgrePrerequisites.h"
+	"OgreColourValue.h"
+
+1346563635 /usr/local/include/OGRE/OgreGpuProgram.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreSharedPtr.h"
+	"OgreIteratorWrappers.h"
+	"OgreSerializer.h"
+	"OgreRenderOperation.h"
+	"OgreGpuProgramParams.h"
+
+1346563635 /usr/local/include/OGRE/OgreSerializer.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreDataStream.h"
+
+1346563635 /usr/local/include/OGRE/OgreDataStream.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSharedPtr.h"
+	<istream>
+
+1346563635 /usr/local/include/OGRE/OgreGpuProgramParams.h
+	"OgrePrerequisites.h"
+	"OgreSharedPtr.h"
+	"OgreIteratorWrappers.h"
+	"OgreSerializer.h"
+	"OgreRenderOperation.h"
+	"OgreAny.h"
+
+1346563635 /usr/local/include/OGRE/OgreAny.h
+	"OgrePrerequisites.h"
+	"OgreException.h"
+	"OgreString.h"
+	<algorithm>
+	<typeinfo>
+
+1346563635 /usr/local/include/OGRE/OgreUserObjectBindings.h
+	"OgrePrerequisites.h"
+	"OgreAny.h"
+
+1346563635 /usr/local/include/OGRE/OgreFactoryObj.h
+	"OgrePrerequisites.h"
+
+1346563635 /usr/local/include/OGRE/OgreAnimable.h
+	"OgrePrerequisites.h"
+	"OgreVector2.h"
+	"OgreVector3.h"
+	"OgreVector4.h"
+	"OgreQuaternion.h"
+	"OgreColourValue.h"
+	"OgreSharedPtr.h"
+	"OgreStringVector.h"
+	"OgreException.h"
+	"OgreAny.h"
+
+1346563635 /usr/local/include/OGRE/OgreVector2.h
+	"OgrePrerequisites.h"
+	"OgreMath.h"
+
+1346563635 /usr/local/include/OGRE/OgreStringVector.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSharedPtr.h"
+
+1346563635 /usr/local/include/OGRE/OgreFrustum.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+	"OgreAxisAlignedBox.h"
+	"OgreVertexIndexData.h"
+	"OgreMovablePlane.h"
+
+1346563635 /usr/local/include/OGRE/OgreMovablePlane.h
+	"OgrePrerequisites.h"
+	"OgrePlane.h"
+	"OgreMovableObject.h"
+
+1346563635 /usr/local/include/OGRE/OgreRay.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgrePlaneBoundedVolume.h"
+
+1346563635 /usr/local/include/OGRE/OgrePlaneBoundedVolume.h
+	"OgrePrerequisites.h"
+	"OgreAxisAlignedBox.h"
+	"OgreSphere.h"
+	"OgreMath.h"
+	"OgrePlane.h"
+
+1346563635 /usr/local/include/OGRE/OgreEntity.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreString.h"
+	"OgreMovableObject.h"
+	"OgreQuaternion.h"
+	"OgreVector3.h"
+	"OgreHardwareBufferManager.h"
+	"OgreMesh.h"
+	"OgreRenderable.h"
+	"OgreResourceGroupManager.h"
+
+1346563635 /usr/local/include/OGRE/OgreHardwareBufferManager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreHardwareIndexBuffer.h"
+	"OgreRenderToVertexBuffer.h"
+
+1346563635 /usr/local/include/OGRE/OgreSingleton.h
+	"OgrePrerequisites.h"
+	"OgreHeaderPrefix.h"
+	"OgreHeaderSuffix.h"
+
+1346563635 /usr/local/include/OGRE/OgreRenderToVertexBuffer.h
+	"OgrePrerequisites.h"
+	"OgreMaterial.h"
+	"OgreRenderOperation.h"
+
+1346563635 /usr/local/include/OGRE/OgreMesh.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreVertexIndexData.h"
+	"OgreAxisAlignedBox.h"
+	"OgreVertexBoneAssignment.h"
+	"OgreIteratorWrappers.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreSkeleton.h"
+	"OgreAnimation.h"
+	"OgreAnimationTrack.h"
+	"OgrePose.h"
+	"OgreDataStream.h"
+
+1346563635 /usr/local/include/OGRE/OgreVertexBoneAssignment.h
+	"OgrePrerequisites.h"
+
+1346563635 /usr/local/include/OGRE/OgreSkeleton.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreQuaternion.h"
+	"OgreVector3.h"
+	"OgreIteratorWrappers.h"
+	"OgreStringVector.h"
+	"OgreAnimation.h"
+
+1346563635 /usr/local/include/OGRE/OgreAnimation.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreIteratorWrappers.h"
+	"OgreAnimable.h"
+	"OgreAnimationTrack.h"
+	"OgreAnimationState.h"
+
+1346563635 /usr/local/include/OGRE/OgreAnimationTrack.h
+	"OgrePrerequisites.h"
+	"OgreSimpleSpline.h"
+	"OgreRotationalSpline.h"
+	"OgreKeyFrame.h"
+	"OgreAnimable.h"
+	"OgrePose.h"
+
+1346563635 /usr/local/include/OGRE/OgreSimpleSpline.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreMatrix4.h"
+
+1346563635 /usr/local/include/OGRE/OgreRotationalSpline.h
+	"OgrePrerequisites.h"
+	"OgreQuaternion.h"
+
+1346563635 /usr/local/include/OGRE/OgreKeyFrame.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreQuaternion.h"
+	"OgreAny.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreIteratorWrappers.h"
+
+1346563635 /usr/local/include/OGRE/OgrePose.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreVector3.h"
+	"OgreIteratorWrappers.h"
+
+1346563635 /usr/local/include/OGRE/OgreAnimationState.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreController.h"
+	"OgreIteratorWrappers.h"
+
+1346563635 /usr/local/include/OGRE/OgreController.h
+	"OgrePrerequisites.h"
+	"OgreSharedPtr.h"
+
+1346563635 /usr/local/include/OGRE/OgreResourceGroupManager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreCommon.h"
+	"OgreDataStream.h"
+	"OgreResource.h"
+	"OgreArchive.h"
+	"OgreIteratorWrappers.h"
+	<ctime>
+
+1346563635 /usr/local/include/OGRE/OgreArchive.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreDataStream.h"
+	"OgreSharedPtr.h"
+	"OgreStringVector.h"
+	"OgreException.h"
+	<ctime>
+
+1346563635 /usr/local/include/OGRE/OgreLogManager.h
+	"OgrePrerequisites.h"
+	"OgreLog.h"
+	"OgreSingleton.h"
+	"OgreString.h"
+
+1346563635 /usr/local/include/OGRE/OgreLog.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+
+1346563635 /usr/local/include/OGRE/OgreRoot.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreString.h"
+	"OgreSceneManagerEnumerator.h"
+	"OgreResourceGroupManager.h"
+	"OgreLodStrategyManager.h"
+	"OgreWorkQueue.h"
+	<exception>
+
+1346563635 /usr/local/include/OGRE/OgreSceneManagerEnumerator.h
+	"OgrePrerequisites.h"
+	"OgreSceneManager.h"
+	"OgreSingleton.h"
+	"OgreIteratorWrappers.h"
+
+1346563635 /usr/local/include/OGRE/OgreSceneManager.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSceneNode.h"
+	"OgrePlane.h"
+	"OgreQuaternion.h"
+	"OgreColourValue.h"
+	"OgreCommon.h"
+	"OgreSceneQuery.h"
+	"OgreAutoParamDataSource.h"
+	"OgreAnimationState.h"
+	"OgreRenderQueue.h"
+	"OgreRenderQueueSortingGrouping.h"
+	"OgreRectangle2D.h"
+	"OgrePixelFormat.h"
+	"OgreResourceGroupManager.h"
+	"OgreTexture.h"
+	"OgreShadowCameraSetup.h"
+	"OgreShadowTextureManager.h"
+	"OgreCamera.h"
+	"OgreInstancedGeometry.h"
+	"OgreLodListener.h"
+	"OgreInstanceManager.h"
+	"OgreRenderSystem.h"
+
+1346563635 /usr/local/include/OGRE/OgreSceneNode.h
+	"OgrePrerequisites.h"
+	"OgreNode.h"
+	"OgreIteratorWrappers.h"
+	"OgreAxisAlignedBox.h"
+
+1346563635 /usr/local/include/OGRE/OgreNode.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreMatrix3.h"
+	"OgreMatrix4.h"
+	"OgreQuaternion.h"
+	"OgreString.h"
+	"OgreRenderable.h"
+	"OgreIteratorWrappers.h"
+	"OgreMesh.h"
+	"OgreUserObjectBindings.h"
+
+1346563635 /usr/local/include/OGRE/OgreSceneQuery.h
+	"OgrePrerequisites.h"
+	"OgreAxisAlignedBox.h"
+	"OgreSphere.h"
+	"OgreRay.h"
+	"OgreRenderOperation.h"
+	"OgrePlaneBoundedVolume.h"
+
+1346563635 /usr/local/include/OGRE/OgreAutoParamDataSource.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreMatrix4.h"
+	"OgreVector4.h"
+	"OgreLight.h"
+	"OgreColourValue.h"
+
+1346563635 /usr/local/include/OGRE/OgreLight.h
+	"OgrePrerequisites.h"
+	"OgreColourValue.h"
+	"OgreVector3.h"
+	"OgreVector4.h"
+	"OgreString.h"
+	"OgreMovableObject.h"
+	"OgrePlaneBoundedVolume.h"
+	"OgreShadowCameraSetup.h"
+
+1346563635 /usr/local/include/OGRE/OgreShadowCameraSetup.h
+	"OgrePrerequisites.h"
+	"OgreMovablePlane.h"
+	"OgreSharedPtr.h"
+
+1346563635 /usr/local/include/OGRE/OgreRenderQueueSortingGrouping.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+	"OgreMaterial.h"
+	"OgreTechnique.h"
+	"OgrePass.h"
+	"OgreRadixSort.h"
+
+1346563635 /usr/local/include/OGRE/OgreTechnique.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+	"OgreBlendMode.h"
+	"OgreCommon.h"
+	"OgrePass.h"
+	"OgreIteratorWrappers.h"
+	"OgreRenderSystemCapabilities.h"
+	"OgreUserObjectBindings.h"
+
+1346563635 /usr/local/include/OGRE/OgrePass.h
+	"OgrePrerequisites.h"
+	"OgreGpuProgram.h"
+	"OgreColourValue.h"
+	"OgreBlendMode.h"
+	"OgreCommon.h"
+	"OgreLight.h"
+	"OgreTextureUnitState.h"
+	"OgreUserObjectBindings.h"
+
+1346563635 /usr/local/include/OGRE/OgreTextureUnitState.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreBlendMode.h"
+	"OgreMatrix4.h"
+	"OgreIteratorWrappers.h"
+	"OgreString.h"
+	"OgreTexture.h"
+
+1346563635 /usr/local/include/OGRE/OgreTexture.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBuffer.h"
+	"OgreResource.h"
+	"OgreImage.h"
+
+1346563635 /usr/local/include/OGRE/OgreImage.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgrePixelFormat.h"
+	"OgreDataStream.h"
+
+1346563635 /usr/local/include/OGRE/OgrePixelFormat.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+
+1346563635 /usr/local/include/OGRE/OgreRenderSystemCapabilities.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreStringConverter.h"
+	"OgreStringVector.h"
+	"OgreResource.h"
+	"OgreLogManager.h"
+
+1346563635 /usr/local/include/OGRE/OgreStringConverter.h
+	"OgrePrerequisites.h"
+	"OgreStringVector.h"
+	"OgreColourValue.h"
+	"OgreMath.h"
+	"OgreMatrix3.h"
+	"OgreMatrix4.h"
+	"OgreQuaternion.h"
+	"OgreVector2.h"
+	"OgreVector3.h"
+	"OgreVector4.h"
+
+1346563635 /usr/local/include/OGRE/OgreRadixSort.h
+	"OgrePrerequisites.h"
+
+1346563635 /usr/local/include/OGRE/OgreRectangle2D.h
+	"OgrePrerequisites.h"
+	"OgreSimpleRenderable.h"
+
+1346563635 /usr/local/include/OGRE/OgreSimpleRenderable.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+	"OgreAxisAlignedBox.h"
+	"OgreMaterial.h"
+
+1346563635 /usr/local/include/OGRE/OgreShadowTextureManager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgrePixelFormat.h"
+	"OgreTexture.h"
+	"OgreIteratorWrappers.h"
+
+1346563635 /usr/local/include/OGRE/OgreInstancedGeometry.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreSimpleRenderable.h"
+	"OgreSkeleton.h"
+	"OgreSkeletonInstance.h"
+	"OgreAnimationTrack.h"
+	"OgreBone.h"
+	"OgreIteratorWrappers.h"
+	"OgreMesh.h"
+
+1346563635 /usr/local/include/OGRE/OgreSkeletonInstance.h
+	"OgrePrerequisites.h"
+	"OgreSkeleton.h"
+
+1346563635 /usr/local/include/OGRE/OgreBone.h
+	"OgrePrerequisites.h"
+	"OgreNode.h"
+
+1346563635 /usr/local/include/OGRE/OgreLodListener.h
+	"OgrePrerequisites.h"
+
+1346563635 /usr/local/include/OGRE/OgreInstanceManager.h
+	"OgrePrerequisites.h"
+	"OgreMesh.h"
+	"OgreRenderOperation.h"
+
+1346563635 /usr/local/include/OGRE/OgreRenderSystem.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreTextureUnitState.h"
+	"OgreCommon.h"
+	"OgreMaterialManager.h"
+	"OgreRenderOperation.h"
+	"OgreRenderSystemCapabilities.h"
+	"OgreRenderTarget.h"
+	"OgreRenderTexture.h"
+	"OgreFrameListener.h"
+	"OgreConfigOptionMap.h"
+	"OgreGpuProgram.h"
+	"OgrePlane.h"
+	"OgreIteratorWrappers.h"
+
+1346563635 /usr/local/include/OGRE/OgreMaterialManager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreResourceManager.h"
+	"OgreMaterial.h"
+	"OgreStringVector.h"
+	"OgreMaterialSerializer.h"
+
+1346563635 /usr/local/include/OGRE/OgreResourceManager.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreResourceGroupManager.h"
+	"OgreIteratorWrappers.h"
+	"OgreCommon.h"
+	"OgreDataStream.h"
+	"OgreStringVector.h"
+	"OgreScriptLoader.h"
+
+1346563635 /usr/local/include/OGRE/OgreScriptLoader.h
+	"OgrePrerequisites.h"
+	"OgreDataStream.h"
+	"OgreStringVector.h"
+
+1346563635 /usr/local/include/OGRE/OgreMaterialSerializer.h
+	"OgrePrerequisites.h"
+	"OgreMaterial.h"
+	"OgreBlendMode.h"
+	"OgreTextureUnitState.h"
+	"OgreGpuProgram.h"
+	"OgreStringVector.h"
+
+1346563635 /usr/local/include/OGRE/OgreRenderTarget.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreTextureManager.h"
+	"OgreViewport.h"
+	"OgreTimer.h"
+
+1346563635 /usr/local/include/OGRE/OgreTextureManager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreTexture.h"
+	"OgreSingleton.h"
+
+1346563635 /usr/local/include/OGRE/OgreViewport.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreColourValue.h"
+	"OgreFrustum.h"
+
+1346563635 /usr/local/include/OGRE/OgreTimer.h
+	"OgrePrerequisites.h"
+	"OgrePlatform.h"
+	"WIN32/OgreTimerImp.h"
+	"GLX/OgreTimerImp.h"
+	"NaCl/OgreTimerImp.h"
+	"OSX/OgreTimerImp.h"
+	"iOS/OgreTimerImp.h"
+	"Android/OgreTimerImp.h"
+
+1346563635 /usr/local/include/OGRE/GLX/OgreTimerImp.h
+	"../OgrePrerequisites.h"
+
+1346563635 /usr/local/include/OGRE/OgreRenderTexture.h
+	"OgrePrerequisites.h"
+	"OgreRenderTarget.h"
+
+1346563635 /usr/local/include/OGRE/OgreFrameListener.h
+	"OgrePrerequisites.h"
+
+1346563635 /usr/local/include/OGRE/OgreConfigOptionMap.h
+	"OgrePrerequisites.h"
+	"OgreStringVector.h"
+	"OgreString.h"
+
+1346563635 /usr/local/include/OGRE/OgreLodStrategyManager.h
+	"OgrePrerequisites.h"
+	"OgreLodStrategy.h"
+	"OgreSingleton.h"
+	"OgreIteratorWrappers.h"
+
+1346563635 /usr/local/include/OGRE/OgreLodStrategy.h
+	"OgrePrerequisites.h"
+	"OgreMesh.h"
+	"OgreMovableObject.h"
+	"OgreCamera.h"
+
+1346563635 /usr/local/include/OGRE/OgreWorkQueue.h
+	"OgrePrerequisites.h"
+	"OgreAtomicWrappers.h"
+	"OgreAny.h"
+	"OgreSharedPtr.h"
+
+1346563635 /usr/local/include/OGRE/OgreRenderWindow.h
+	"OgrePrerequisites.h"
+	"OgreRenderTarget.h"
+
+1346563635 /usr/local/include/OGRE/OgreConfigFile.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreStringVector.h"
+	"OgreIteratorWrappers.h"
+	"OgreDataStream.h"
+
+1336317057 /usr/include/OIS/OISEvents.h
+	"OISPrereqs.h"
+
+1336317057 /usr/include/OIS/OISPrereqs.h
+	<vector>
+	<string>
+	<map>
+	"OISConfig.h"
+
+1336317057 /usr/include/OIS/OISConfig.h
+
+1336317057 /usr/include/OIS/OISInputManager.h
+	"OISPrereqs.h"
+
+1336317057 /usr/include/OIS/OISKeyboard.h
+	"OISObject.h"
+	"OISEvents.h"
+
+1336317057 /usr/include/OIS/OISObject.h
+	"OISPrereqs.h"
+	"OISInterface.h"
+
+1336317057 /usr/include/OIS/OISInterface.h
+	"OISPrereqs.h"
+
+1336317057 /usr/include/OIS/OISMouse.h
+	"OISObject.h"
+	"OISEvents.h"
+
+1346563635 /usr/local/include/OGRE/SdkTrays.h
+	"Ogre.h"
+	"OgreFontManager.h"
+	"OgreBorderPanelOverlayElement.h"
+	"OgreTextAreaOverlayElement.h"
+	<math.h>
+	"OgreStringSerialiser.h"
+	"OgreTimer.h"
+
+1346563635 /usr/local/include/OGRE/Ogre.h
+	"OgrePrerequisites.h"
+	"OgreAnimation.h"
+	"OgreAnimationState.h"
+	"OgreAnimationTrack.h"
+	"OgreAny.h"
+	"OgreArchive.h"
+	"OgreArchiveManager.h"
+	"OgreAxisAlignedBox.h"
+	"OgreBillboardChain.h"
+	"OgreBillboardSet.h"
+	"OgreBone.h"
+	"OgreCamera.h"
+	"OgreConfigFile.h"
+	"OgreControllerManager.h"
+	"OgreDataStream.h"
+	"OgreEntity.h"
+	"OgreException.h"
+	"OgreFrustum.h"
+	"OgreGpuProgram.h"
+	"OgreGpuProgramManager.h"
+	"OgreHardwareBufferManager.h"
+	"OgreHardwareIndexBuffer.h"
+	"OgreHardwarePixelBuffer.h"
+	"OgreHardwareOcclusionQuery.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreHardwarePixelBuffer.h"
+	"OgreHighLevelGpuProgram.h"
+	"OgreHighLevelGpuProgramManager.h"
+	"OgreInstanceBatch.h"
+	"OgreInstancedEntity.h"
+	"OgreInstanceManager.h"
+	"OgreKeyFrame.h"
+	"OgreLight.h"
+	"OgreLogManager.h"
+	"OgreManualObject.h"
+	"OgreMaterial.h"
+	"OgreMaterialManager.h"
+	"OgreMaterialSerializer.h"
+	"OgreMath.h"
+	"OgreMatrix3.h"
+	"OgreMatrix4.h"
+	"OgreMesh.h"
+	"OgreMeshManager.h"
+	"OgreMeshSerializer.h"
+	"OgreOverlay.h"
+	"OgreOverlayContainer.h"
+	"OgreOverlayElement.h"
+	"OgreOverlayManager.h"
+	"OgreParticleAffector.h"
+	"OgreParticleEmitter.h"
+	"OgreParticleSystemManager.h"
+	"OgrePass.h"
+	"OgrePatchMesh.h"
+	"OgrePatchSurface.h"
+	"OgreProfiler.h"
+	"OgreRadixSort.h"
+	"OgreRenderQueueInvocation.h"
+	"OgreRenderQueueListener.h"
+	"OgreRenderObjectListener.h"
+	"OgreRenderSystem.h"
+	"OgreRenderTargetListener.h"
+	"OgreRenderTexture.h"
+	"OgreRenderWindow.h"
+	"OgreResourceBackgroundQueue.h"
+	"OgreResourceGroupManager.h"
+	"OgreRibbonTrail.h"
+	"OgreRoot.h"
+	"OgreSceneManager.h"
+	"OgreSceneManagerEnumerator.h"
+	"OgreSceneNode.h"
+	"OgreSimpleRenderable.h"
+	"OgreSkeleton.h"
+	"OgreSkeletonInstance.h"
+	"OgreSkeletonManager.h"
+	"OgreSkeletonSerializer.h"
+	"OgreStaticGeometry.h"
+	"OgreString.h"
+	"OgreStringConverter.h"
+	"OgreStringVector.h"
+	"OgreSubEntity.h"
+	"OgreSubMesh.h"
+	"OgreTechnique.h"
+	"OgreTextureManager.h"
+	"OgreTextureUnitState.h"
+	"OgreVector2.h"
+	"OgreViewport.h"
+	"OgreCompositor.h"
+	"OgreCompositorManager.h"
+	"OgreCompositorChain.h"
+	"OgreCompositorInstance.h"
+	"OgreCompositionTechnique.h"
+	"OgreCompositionPass.h"
+	"OgreCompositionTargetPass.h"
+	"OgreWindowEventUtilities.h"
+	"OgreShadowCameraSetup.h"
+	"OgreShadowCameraSetupFocused.h"
+	"OgreShadowCameraSetupLiSPSM.h"
+	"OgreShadowCameraSetupPlaneOptimal.h"
+	"OgreShadowCameraSetupPSSM.h"
+
+1346563635 /usr/local/include/OGRE/OgreArchiveManager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreSingleton.h"
+
+1346563635 /usr/local/include/OGRE/OgreBillboardChain.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+	"OgreResourceGroupManager.h"
+
+1346563635 /usr/local/include/OGRE/OgreBillboardSet.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+	"OgreRadixSort.h"
+	"OgreCommon.h"
+	"OgreResourceGroupManager.h"
+
+1346563635 /usr/local/include/OGRE/OgreControllerManager.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreSingleton.h"
+	"OgreController.h"
+	"OgrePredefinedControllers.h"
+	"OgreTextureUnitState.h"
+	"OgreSharedPtr.h"
+
+1346563635 /usr/local/include/OGRE/OgrePredefinedControllers.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreController.h"
+	"OgreFrameListener.h"
+	"OgreGpuProgram.h"
+
+1346563635 /usr/local/include/OGRE/OgreGpuProgramManager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreException.h"
+	"OgreGpuProgram.h"
+	"OgreSingleton.h"
+
+1346563635 /usr/local/include/OGRE/OgreHardwarePixelBuffer.h
+	"OgrePrerequisites.h"
+	"OgreHardwareBuffer.h"
+	"OgreSharedPtr.h"
+	"OgrePixelFormat.h"
+	"OgreImage.h"
+
+1346563635 /usr/local/include/OGRE/OgreHardwareOcclusionQuery.h
+	"OgrePrerequisites.h"
+
+1346563635 /usr/local/include/OGRE/OgreHighLevelGpuProgram.h
+	"OgrePrerequisites.h"
+	"OgreGpuProgram.h"
+
+1346563635 /usr/local/include/OGRE/OgreHighLevelGpuProgramManager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreSingleton.h"
+	"OgreException.h"
+	"OgreHighLevelGpuProgram.h"
+
+1346563635 /usr/local/include/OGRE/OgreInstanceBatch.h
+	"OgrePrerequisites.h"
+	"OgreRenderOperation.h"
+	"OgreRenderable.h"
+	"OgreMovableObject.h"
+	"OgreMesh.h"
+
+1346563635 /usr/local/include/OGRE/OgreInstancedEntity.h
+	"OgreMovableObject.h"
+	"OgreNode.h"
+
+1346563635 /usr/local/include/OGRE/OgreManualObject.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+	"OgreResourceGroupManager.h"
+
+1346563635 /usr/local/include/OGRE/OgreMeshManager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreSingleton.h"
+	"OgreVector3.h"
+	"OgreHardwareBuffer.h"
+	"OgreMesh.h"
+	"OgrePatchMesh.h"
+
+1346563635 /usr/local/include/OGRE/OgrePatchMesh.h
+	"OgrePrerequisites.h"
+	"OgreMesh.h"
+	"OgrePatchSurface.h"
+
+1346563635 /usr/local/include/OGRE/OgrePatchSurface.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreString.h"
+	"OgreRenderOperation.h"
+	"OgreAxisAlignedBox.h"
+
+1346563635 /usr/local/include/OGRE/OgreMeshSerializer.h
+	"OgrePrerequisites.h"
+	"OgreSerializer.h"
+	"OgreMeshSerializerImpl.h"
+
+1346563635 /usr/local/include/OGRE/OgreMeshSerializerImpl.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreSerializer.h"
+	"OgreMaterial.h"
+	"OgreMesh.h"
+	"OgreEdgeListBuilder.h"
+
+1346563635 /usr/local/include/OGRE/OgreEdgeListBuilder.h
+	"OgrePrerequisites.h"
+	"OgreVector4.h"
+	"OgreHardwareVertexBuffer.h"
+	"OgreRenderOperation.h"
+
+1346563635 /usr/local/include/OGRE/OgreOverlay.h
+	"OgrePrerequisites.h"
+	"OgreSceneNode.h"
+	"OgreIteratorWrappers.h"
+	"OgreMatrix4.h"
+
+1346563635 /usr/local/include/OGRE/OgreOverlayContainer.h
+	"OgrePrerequisites.h"
+	"OgreOverlayElement.h"
+	"OgreIteratorWrappers.h"
+
+1346563635 /usr/local/include/OGRE/OgreOverlayElement.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreRenderable.h"
+	"OgreUTFString.h"
+	"OgreStringInterface.h"
+	"OgreOverlayElementCommands.h"
+	"OgreColourValue.h"
+	"OgreRectangle.h"
+
+1346563635 /usr/local/include/OGRE/OgreUTFString.h
+	"OgrePrerequisites.h"
+	<iterator>
+	<string>
+	<stdexcept>
+
+1346563635 /usr/local/include/OGRE/OgreOverlayElementCommands.h
+	"OgrePrerequisites.h"
+	"OgreStringInterface.h"
+
+1346563635 /usr/local/include/OGRE/OgreRectangle.h
+	"OgrePrerequisites.h"
+
+1346563635 /usr/local/include/OGRE/OgreOverlayManager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreStringVector.h"
+	"OgreOverlay.h"
+	"OgreScriptLoader.h"
+	"OgreFrustum.h"
+
+1346563635 /usr/local/include/OGRE/OgreParticleAffector.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreStringInterface.h"
+
+1346563635 /usr/local/include/OGRE/OgreParticleEmitter.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreStringInterface.h"
+	"OgreParticleEmitterCommands.h"
+	"OgreParticle.h"
+
+1346563635 /usr/local/include/OGRE/OgreParticleEmitterCommands.h
+	"OgrePrerequisites.h"
+	"OgreStringInterface.h"
+
+1346563635 /usr/local/include/OGRE/OgreParticle.h
+	"OgrePrerequisites.h"
+	"OgreBillboard.h"
+
+1346563635 /usr/local/include/OGRE/OgreBillboard.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreColourValue.h"
+	"OgreCommon.h"
+
+1346563635 /usr/local/include/OGRE/OgreParticleSystemManager.h
+	"OgrePrerequisites.h"
+	"OgreParticleSystem.h"
+	"OgreFrameListener.h"
+	"OgreSingleton.h"
+	"OgreIteratorWrappers.h"
+	"OgreScriptLoader.h"
+	"OgreResourceGroupManager.h"
+
+1346563635 /usr/local/include/OGRE/OgreParticleSystem.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+	"OgreString.h"
+	"OgreParticleIterator.h"
+	"OgreStringInterface.h"
+	"OgreMovableObject.h"
+	"OgreRadixSort.h"
+	"OgreController.h"
+	"OgreResourceGroupManager.h"
+
+1346563635 /usr/local/include/OGRE/OgreParticleIterator.h
+	"OgrePrerequisites.h"
+
+1346563635 /usr/local/include/OGRE/OgreProfiler.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreString.h"
+	"OgreOverlay.h"
+
+1346563635 /usr/local/include/OGRE/OgreRenderQueueInvocation.h
+	"OgrePrerequisites.h"
+	"OgreRenderQueueSortingGrouping.h"
+	"OgreIteratorWrappers.h"
+
+1346563635 /usr/local/include/OGRE/OgreRenderQueueListener.h
+	"OgrePrerequisites.h"
+	"OgreRenderQueue.h"
+
+1346563635 /usr/local/include/OGRE/OgreRenderObjectListener.h
+	"OgrePrerequisites.h"
+	"OgreRenderable.h"
+	"OgrePass.h"
+
+1346563635 /usr/local/include/OGRE/OgreRenderTargetListener.h
+	"OgrePrerequisites.h"
+
+1346563635 /usr/local/include/OGRE/OgreResourceBackgroundQueue.h
+	"OgrePrerequisites.h"
+	"OgreCommon.h"
+	"OgreSingleton.h"
+	"OgreResource.h"
+	"OgreWorkQueue.h"
+
+1346563635 /usr/local/include/OGRE/OgreRibbonTrail.h
+	"OgrePrerequisites.h"
+	"OgreBillboardChain.h"
+	"OgreNode.h"
+	"OgreIteratorWrappers.h"
+	"OgreFrameListener.h"
+	"OgreControllerManager.h"
+
+1346563635 /usr/local/include/OGRE/OgreSkeletonManager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreSingleton.h"
+
+1346563635 /usr/local/include/OGRE/OgreSkeletonSerializer.h
+	"OgrePrerequisites.h"
+	"OgreSkeleton.h"
+	"OgreSerializer.h"
+
+1346563635 /usr/local/include/OGRE/OgreStaticGeometry.h
+	"OgrePrerequisites.h"
+	"OgreMovableObject.h"
+	"OgreRenderable.h"
+	"OgreMesh.h"
+	"OgreLodStrategy.h"
+
+1346563635 /usr/local/include/OGRE/OgreSubEntity.h
+	"OgrePrerequisites.h"
+	"OgreString.h"
+	"OgreRenderable.h"
+	"OgreHardwareBufferManager.h"
+	"OgreResourceGroupManager.h"
+
+1346563635 /usr/local/include/OGRE/OgreSubMesh.h
+	"OgrePrerequisites.h"
+	"OgreVertexIndexData.h"
+	"OgreMaterial.h"
+	"OgreRenderOperation.h"
+	"OgreVertexBoneAssignment.h"
+	"OgreAnimationTrack.h"
+	"OgreResourceGroupManager.h"
+
+1346563635 /usr/local/include/OGRE/OgreCompositor.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+	"OgreResource.h"
+	"OgreTexture.h"
+
+1346563635 /usr/local/include/OGRE/OgreCompositorManager.h
+	"OgrePrerequisites.h"
+	"OgreResourceManager.h"
+	"OgreCompositor.h"
+	"OgreRectangle2D.h"
+	"OgreRenderSystem.h"
+	"OgreCompositionTechnique.h"
+
+1346563635 /usr/local/include/OGRE/OgreCompositionTechnique.h
+	"OgrePrerequisites.h"
+	"OgrePixelFormat.h"
+	"OgreIteratorWrappers.h"
+
+1346563635 /usr/local/include/OGRE/OgreCompositorChain.h
+	"OgrePrerequisites.h"
+	"OgreRenderTargetListener.h"
+	"OgreRenderQueueListener.h"
+	"OgreCompositorInstance.h"
+	"OgreCompositor.h"
+	"OgreViewport.h"
+
+1346563635 /usr/local/include/OGRE/OgreCompositorInstance.h
+	"OgrePrerequisites.h"
+	"OgreMaterialManager.h"
+	"OgreTexture.h"
+	"OgreRenderQueue.h"
+	"OgreCompositionTechnique.h"
+
+1346563635 /usr/local/include/OGRE/OgreCompositionPass.h
+	"OgrePrerequisites.h"
+	"OgreMaterial.h"
+	"OgreRenderSystem.h"
+	"OgreRenderQueue.h"
+
+1346563635 /usr/local/include/OGRE/OgreCompositionTargetPass.h
+	"OgrePrerequisites.h"
+	"OgreIteratorWrappers.h"
+
+1346563635 /usr/local/include/OGRE/OgreWindowEventUtilities.h
+	"OgrePrerequisites.h"
+	"OgrePlatform.h"
+	<windows.h>
+	<Carbon/Carbon.h>
+
+1346563635 /usr/local/include/OGRE/OgreShadowCameraSetupFocused.h
+	"OgrePrerequisites.h"
+	"OgreShadowCameraSetup.h"
+	"OgrePolygon.h"
+	"OgreConvexBody.h"
+
+1346563635 /usr/local/include/OGRE/OgrePolygon.h
+	"OgrePrerequisites.h"
+	"OgreVector3.h"
+
+1346563635 /usr/local/include/OGRE/OgreConvexBody.h
+	"OgrePrerequisites.h"
+	"OgrePolygon.h"
+
+1346563635 /usr/local/include/OGRE/OgreShadowCameraSetupLiSPSM.h
+	"OgrePrerequisites.h"
+	"OgreShadowCameraSetupFocused.h"
+
+1346563635 /usr/local/include/OGRE/OgreShadowCameraSetupPlaneOptimal.h
+	"OgrePrerequisites.h"
+	"OgreShadowCameraSetup.h"
+
+1346563635 /usr/local/include/OGRE/OgreShadowCameraSetupPSSM.h
+	"OgrePrerequisites.h"
+	"OgreShadowCameraSetupLiSPSM.h"
+
+1346563635 /usr/local/include/OGRE/OgreFontManager.h
+	"OgrePrerequisites.h"
+	"OgreSingleton.h"
+	"OgreResourceManager.h"
+	"OgreFont.h"
+
+1346563635 /usr/local/include/OGRE/OgreFont.h
+	"OgrePrerequisites.h"
+	"OgreResource.h"
+	"OgreTexture.h"
+	"OgreMaterial.h"
+	"OgreCommon.h"
+
+1346563635 /usr/local/include/OGRE/OgreBorderPanelOverlayElement.h
+	"OgrePanelOverlayElement.h"
+
+1346563635 /usr/local/include/OGRE/OgrePanelOverlayElement.h
+	"OgreOverlayContainer.h"
+
+1346563635 /usr/local/include/OGRE/OgreTextAreaOverlayElement.h
+	"OgreOverlayElement.h"
+	"OgreFont.h"
+
+1346563635 /usr/local/include/OGRE/SdkCameraMan.h
+	"Ogre.h"
+	<limits>
+
+1336317057 /usr/include/OIS/OISMultiTouch.h
+	"OISObject.h"
+	"OISEvents.h"
+	<set>
+	<vector>
+
+1389629079 source:/home/lq/workspace/ws_codeblocks/cegui_ogre/BasicTutorial7.cpp
+	"BasicTutorial7.h"
+	"windows.h"
+
+1389626139 /home/lq/workspace/ws_codeblocks/cegui_ogre/BasicTutorial7.h
+	"BaseApplication.h"
+	<CEGUI/CEGUI.h>
+	<CEGUI/RendererModules/Ogre/Renderer.h>
+
+1336317057 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/OIS/OISEvents.h
+	"OISPrereqs.h"
+
+1336317057 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/OIS/OISPrereqs.h
+	<vector>
+	<string>
+	<map>
+	"OISConfig.h"
+
+1336317057 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/OIS/OISConfig.h
+
+1336317057 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/OIS/OISInputManager.h
+	"OISPrereqs.h"
+
+1336317057 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/OIS/OISKeyboard.h
+	"OISObject.h"
+	"OISEvents.h"
+
+1336317057 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/OIS/OISObject.h
+	"OISPrereqs.h"
+	"OISInterface.h"
+
+1336317057 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/OIS/OISInterface.h
+	"OISPrereqs.h"
+
+1336317057 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/OIS/OISMouse.h
+	"OISObject.h"
+	"OISEvents.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/CEGUI.h
+	"CEGUI/Affector.h"
+	"CEGUI/Animation.h"
+	"CEGUI/AnimationInstance.h"
+	"CEGUI/AnimationManager.h"
+	"CEGUI/BasicImage.h"
+	"CEGUI/BasicRenderedStringParser.h"
+	"CEGUI/BidiVisualMapping.h"
+	"CEGUI/BoundSlot.h"
+	"CEGUI/CentredRenderedString.h"
+	"CEGUI/Clipboard.h"
+	"CEGUI/Colour.h"
+	"CEGUI/ColourRect.h"
+	"CEGUI/CoordConverter.h"
+	"CEGUI/DataContainer.h"
+	"CEGUI/DefaultLogger.h"
+	"CEGUI/DefaultRenderedStringParser.h"
+	"CEGUI/DefaultResourceProvider.h"
+	"CEGUI/DynamicModule.h"
+	"CEGUI/Element.h"
+	"CEGUI/Event.h"
+	"CEGUI/EventArgs.h"
+	"CEGUI/EventSet.h"
+	"CEGUI/Exceptions.h"
+	"CEGUI/FactoryModule.h"
+	"CEGUI/FactoryRegisterer.h"
+	"CEGUI/Font.h"
+	"CEGUI/FontGlyph.h"
+	"CEGUI/FontManager.h"
+	"CEGUI/FormattedRenderedString.h"
+	"CEGUI/GeometryBuffer.h"
+	"CEGUI/GlobalEventSet.h"
+	"CEGUI/GUIContext.h"
+	"CEGUI/Image.h"
+	"CEGUI/ImageCodec.h"
+	"CEGUI/ImageManager.h"
+	"CEGUI/InputEvent.h"
+	"CEGUI/Interpolator.h"
+	"CEGUI/JustifiedRenderedString.h"
+	"CEGUI/KeyFrame.h"
+	"CEGUI/LeftAlignedRenderedString.h"
+	"CEGUI/LinkedEvent.h"
+	"CEGUI/Logger.h"
+	"CEGUI/MouseCursor.h"
+	"CEGUI/NamedElement.h"
+	"CEGUI/Property.h"
+	"CEGUI/PropertyHelper.h"
+	"CEGUI/PropertySet.h"
+	"CEGUI/Quaternion.h"
+	"CEGUI/Rect.h"
+	"CEGUI/RegexMatcher.h"
+	"CEGUI/RenderedString.h"
+	"CEGUI/RenderedStringImageComponent.h"
+	"CEGUI/RenderedStringParser.h"
+	"CEGUI/RenderedStringTextComponent.h"
+	"CEGUI/RenderedStringWidgetComponent.h"
+	"CEGUI/RenderedStringWordWrapper.h"
+	"CEGUI/RenderEffect.h"
+	"CEGUI/RenderEffectManager.h"
+	"CEGUI/Renderer.h"
+	"CEGUI/RenderingContext.h"
+	"CEGUI/RenderingSurface.h"
+	"CEGUI/RenderingWindow.h"
+	"CEGUI/RenderQueue.h"
+	"CEGUI/RenderTarget.h"
+	"CEGUI/RightAlignedRenderedString.h"
+	"CEGUI/Scheme.h"
+	"CEGUI/SchemeManager.h"
+	"CEGUI/ScriptModule.h"
+	"CEGUI/SimpleTimer.h"
+	"CEGUI/Size.h"
+	"CEGUI/String.h"
+	"CEGUI/StringTranscoder.h"
+	"CEGUI/System.h"
+	"CEGUI/SystemKeys.h"
+	"CEGUI/Texture.h"
+	"CEGUI/TextureTarget.h"
+	"CEGUI/TextUtils.h"
+	"CEGUI/TplInterpolators.h"
+	"CEGUI/TplWindowFactory.h"
+	"CEGUI/TplWindowRendererFactory.h"
+	"CEGUI/TplWindowFactoryRegisterer.h"
+	"CEGUI/TplWRFactoryRegisterer.h"
+	"CEGUI/Vector.h"
+	"CEGUI/Version.h"
+	"CEGUI/Vertex.h"
+	"CEGUI/WindowFactory.h"
+	"CEGUI/WindowFactoryManager.h"
+	"CEGUI/Window.h"
+	"CEGUI/WindowManager.h"
+	"CEGUI/WindowRendererManager.h"
+	"CEGUI/XMLAttributes.h"
+	"CEGUI/XMLHandler.h"
+	"CEGUI/XMLParser.h"
+	"CEGUI/XMLSerializer.h"
+	"CEGUI/falagard/WidgetLookManager.h"
+	"CEGUI/widgets/All.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Affector.h
+	"CEGUI/String.h"
+	"CEGUI/KeyFrame.h"
+	<map>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/String.h
+	"CEGUI/Base.h"
+	<cstring>
+	<stdexcept>
+	<cstddef>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Base.h
+	<cassert>
+	"CEGUI/Config.h"
+	"CEGUI/Version.h"
+	<string>
+	"CEGUI/ForwardRefs.h"
+	"CEGUI/MemoryAllocation.h"
+
+1389617427 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Config.h
+
+1389432861 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Version.h
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/ForwardRefs.h
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/MemoryAllocation.h
+	"CEGUI/MemoryAllocatedObject.h"
+	"CEGUI/MemorySTLWrapper.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/MemoryAllocatedObject.h
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/MemorySTLWrapper.h
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/KeyFrame.h
+	"CEGUI/String.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Animation.h
+	"CEGUI/String.h"
+	<vector>
+	<map>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/AnimationInstance.h
+	"CEGUI/EventArgs.h"
+	"CEGUI/Event.h"
+	<map>
+	<vector>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/EventArgs.h
+	"CEGUI/Base.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Event.h
+	"CEGUI/String.h"
+	"CEGUI/BoundSlot.h"
+	"CEGUI/SubscriberSlot.h"
+	"CEGUI/RefCounted.h"
+	<map>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/BoundSlot.h
+	"CEGUI/Base.h"
+	"CEGUI/SubscriberSlot.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/SubscriberSlot.h
+	"CEGUI/Base.h"
+	"CEGUI/FreeFunctionSlot.h"
+	"CEGUI/FunctorCopySlot.h"
+	"CEGUI/FunctorReferenceSlot.h"
+	"CEGUI/FunctorPointerSlot.h"
+	"CEGUI/MemberFunctionSlot.h"
+	"CEGUI/FunctorReferenceBinder.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/FreeFunctionSlot.h
+	"CEGUI/SlotFunctorBase.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/SlotFunctorBase.h
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/FunctorCopySlot.h
+	"CEGUI/SlotFunctorBase.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/FunctorReferenceSlot.h
+	"CEGUI/SlotFunctorBase.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/FunctorPointerSlot.h
+	"CEGUI/SlotFunctorBase.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/MemberFunctionSlot.h
+	"CEGUI/SlotFunctorBase.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/FunctorReferenceBinder.h
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/RefCounted.h
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/AnimationManager.h
+	"CEGUI/Singleton.h"
+	"CEGUI/String.h"
+	<map>
+	<vector>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Singleton.h
+	"CEGUI/Base.h"
+	<cassert>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/BasicImage.h
+	"CEGUI/Image.h"
+	"CEGUI/String.h"
+	"CEGUI/Rect.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Image.h
+	"CEGUI/ChainedXMLHandler.h"
+	"CEGUI/String.h"
+	"CEGUI/ColourRect.h"
+	"CEGUI/Rect.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/ChainedXMLHandler.h
+	"CEGUI/XMLHandler.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/XMLHandler.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/ColourRect.h
+	"CEGUI/Base.h"
+	"CEGUI/Colour.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Colour.h
+	"CEGUI/Base.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Rect.h
+	"CEGUI/Vector.h"
+	"CEGUI/Size.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Vector.h
+	"CEGUI/UDim.h"
+	<typeinfo>
+	<ostream>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/UDim.h
+	"CEGUI/Base.h"
+	<ostream>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Size.h
+	"CEGUI/UDim.h"
+	"CEGUI/Vector.h"
+	<typeinfo>
+	<ostream>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/BasicRenderedStringParser.h
+	"CEGUI/RenderedStringParser.h"
+	"CEGUI/Rect.h"
+	"CEGUI/ColourRect.h"
+	"CEGUI/String.h"
+	"CEGUI/falagard/Enums.h"
+	<map>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/RenderedStringParser.h
+	"CEGUI/RenderedString.h"
+	"CEGUI/String.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/RenderedString.h
+	"CEGUI/Size.h"
+	"CEGUI/Rect.h"
+	<vector>
+	<utility>
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/falagard/Enums.h
+	"CEGUI/PropertyHelper.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/PropertyHelper.h
+	"CEGUI/String.h"
+	"CEGUI/Size.h"
+	"CEGUI/Vector.h"
+	"CEGUI/Quaternion.h"
+	"CEGUI/Colour.h"
+	"CEGUI/ColourRect.h"
+	"CEGUI/UDim.h"
+	"CEGUI/Rect.h"
+	<cstdio>
+	<sstream>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Quaternion.h
+	"CEGUI/Base.h"
+	"CEGUI/Interpolator.h"
+	"CEGUI/Vector.h"
+	<cmath>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Interpolator.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/BidiVisualMapping.h
+	"CEGUI/String.h"
+	<vector>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/CentredRenderedString.h
+	"CEGUI/FormattedRenderedString.h"
+	<vector>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/FormattedRenderedString.h
+	"CEGUI/RenderedString.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Clipboard.h
+	"CEGUI/String.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/CoordConverter.h
+	"CEGUI/UDim.h"
+	"CEGUI/Vector.h"
+	"CEGUI/Size.h"
+	"CEGUI/Rect.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/DataContainer.h
+	"CEGUI/Base.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/DefaultLogger.h
+	"CEGUI/Logger.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Logger.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	<fstream>
+	<sstream>
+	<vector>
+	<utility>
+	"CEGUI/Singleton.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/DefaultRenderedStringParser.h
+	"CEGUI/RenderedStringParser.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/DefaultResourceProvider.h
+	"CEGUI/Base.h"
+	"CEGUI/ResourceProvider.h"
+	<map>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/ResourceProvider.h
+	"CEGUI/Base.h"
+	"CEGUI/DataContainer.h"
+	"CEGUI/String.h"
+	<vector>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/DynamicModule.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Element.h
+	"CEGUI/Base.h"
+	"CEGUI/PropertySet.h"
+	"CEGUI/EventSet.h"
+	"CEGUI/EventArgs.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/PropertySet.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/IteratorBase.h"
+	"CEGUI/Property.h"
+	"CEGUI/PropertyHelper.h"
+	"CEGUI/TypedProperty.h"
+	"CEGUI/TplWindowProperty.h"
+	"CEGUI/Exceptions.h"
+	<map>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/IteratorBase.h
+	"CEGUI/Base.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Property.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/XMLSerializer.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/XMLSerializer.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	<vector>
+	<iostream>
+	<CEGUI/XMLSerializer.h>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/TypedProperty.h
+	"CEGUI/Property.h"
+	"CEGUI/PropertyHelper.h"
+	"CEGUI/Exceptions.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Exceptions.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	<exception>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/TplWindowProperty.h
+	"CEGUI/TplProperty.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/TplProperty.h
+	"CEGUI/TypedProperty.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/EventSet.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/Event.h"
+	"CEGUI/IteratorBase.h"
+	<map>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/FactoryModule.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	<vector>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/FactoryRegisterer.h
+	"CEGUI/String.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Font.h
+	"CEGUI/Base.h"
+	"CEGUI/PropertySet.h"
+	"CEGUI/EventSet.h"
+	"CEGUI/String.h"
+	"CEGUI/XMLSerializer.h"
+	"CEGUI/FontGlyph.h"
+	<map>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/FontGlyph.h
+	"CEGUI/Image.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/FontManager.h
+	"CEGUI/Singleton.h"
+	"CEGUI/NamedXMLResourceManager.h"
+	"CEGUI/Font.h"
+	"CEGUI/Font_xmlHandler.h"
+	"CEGUI/IteratorBase.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/NamedXMLResourceManager.h
+	"CEGUI/EventSet.h"
+	"CEGUI/String.h"
+	"CEGUI/Exceptions.h"
+	"CEGUI/Logger.h"
+	"CEGUI/InputEvent.h"
+	"CEGUI/System.h"
+	<map>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/InputEvent.h
+	"CEGUI/Base.h"
+	"CEGUI/EventArgs.h"
+	"CEGUI/String.h"
+	"CEGUI/Vector.h"
+	"CEGUI/Size.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/System.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/Singleton.h"
+	"CEGUI/EventSet.h"
+	"CEGUI/Renderer.h"
+	"CEGUI/InputEvent.h"
+	"CEGUI/ResourceProvider.h"
+	<vector>
+	"CEGUI/Win32StringTranscoder.h"
+	"CEGUI/IconvStringTranscoder.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Renderer.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/Size.h"
+	"CEGUI/Vector.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Win32StringTranscoder.h
+	"CEGUI/StringTranscoder.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/StringTranscoder.h
+	"CEGUI/String.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/IconvStringTranscoder.h
+	"CEGUI/StringTranscoder.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Font_xmlHandler.h
+	"CEGUI/XMLHandler.h"
+	"CEGUI/String.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/GeometryBuffer.h
+	"CEGUI/Base.h"
+	"CEGUI/Renderer.h"
+	"CEGUI/Rect.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/GlobalEventSet.h
+	"CEGUI/EventSet.h"
+	"CEGUI/Singleton.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/GUIContext.h
+	"CEGUI/RenderingSurface.h"
+	"CEGUI/InjectedInputReceiver.h"
+	"CEGUI/MouseCursor.h"
+	"CEGUI/SystemKeys.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/RenderingSurface.h
+	"CEGUI/EventSet.h"
+	"CEGUI/EventArgs.h"
+	"CEGUI/RenderQueue.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/RenderQueue.h
+	"CEGUI/Base.h"
+	<vector>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/InjectedInputReceiver.h
+	"CEGUI/InputEvent.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/MouseCursor.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/Vector.h"
+	"CEGUI/Rect.h"
+	"CEGUI/EventSet.h"
+	"CEGUI/InputEvent.h"
+	"CEGUI/UDim.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/SystemKeys.h
+	"CEGUI/InputEvent.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/ImageCodec.h
+	"CEGUI/Base.h"
+	"CEGUI/DataContainer.h"
+	"CEGUI/Texture.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Texture.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/Size.h"
+	"CEGUI/Vector.h"
+	"CEGUI/Rect.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/ImageManager.h
+	"CEGUI/Singleton.h"
+	"CEGUI/ChainedXMLHandler.h"
+	"CEGUI/String.h"
+	"CEGUI/Size.h"
+	"CEGUI/ImageFactory.h"
+	"CEGUI/Logger.h"
+	"CEGUI/Exceptions.h"
+	"CEGUI/IteratorBase.h"
+	<map>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/ImageFactory.h
+	"CEGUI/Image.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/JustifiedRenderedString.h
+	"CEGUI/FormattedRenderedString.h"
+	<vector>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/LeftAlignedRenderedString.h
+	"CEGUI/FormattedRenderedString.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/LinkedEvent.h
+	"CEGUI/Event.h"
+	<vector>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/NamedElement.h
+	"CEGUI/Element.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/RegexMatcher.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/InputEvent.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/RenderedStringImageComponent.h
+	"CEGUI/RenderedStringComponent.h"
+	"CEGUI/ColourRect.h"
+	"CEGUI/String.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/RenderedStringComponent.h
+	"CEGUI/Size.h"
+	"CEGUI/Rect.h"
+	"CEGUI/falagard/Enums.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/RenderedStringTextComponent.h
+	"CEGUI/RenderedStringComponent.h"
+	"CEGUI/ColourRect.h"
+	"CEGUI/String.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/RenderedStringWidgetComponent.h
+	"CEGUI/RenderedStringComponent.h"
+	"CEGUI/String.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/RenderedStringWordWrapper.h
+	"CEGUI/FormattedRenderedString.h"
+	"CEGUI/JustifiedRenderedString.h"
+	"CEGUI/Vector.h"
+	<vector>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/RenderEffect.h
+	"CEGUI/Base.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/RenderEffectManager.h
+	"CEGUI/Singleton.h"
+	"CEGUI/IteratorBase.h"
+	"CEGUI/Logger.h"
+	"CEGUI/Exceptions.h"
+	"CEGUI/RenderEffectFactory.h"
+	<map>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/RenderEffectFactory.h
+	"CEGUI/RenderEffect.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/RenderingContext.h
+	"CEGUI/RenderingSurface.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/RenderingWindow.h
+	"CEGUI/RenderingSurface.h"
+	"CEGUI/Vector.h"
+	"CEGUI/Quaternion.h"
+	"CEGUI/Size.h"
+	"CEGUI/Rect.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/RenderTarget.h
+	"CEGUI/Base.h"
+	"CEGUI/EventSet.h"
+	"CEGUI/EventArgs.h"
+	"CEGUI/Vector.h"
+	"CEGUI/Rect.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/RightAlignedRenderedString.h
+	"CEGUI/FormattedRenderedString.h"
+	<vector>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Scheme.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/SchemeManager.h"
+	<vector>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/SchemeManager.h
+	"CEGUI/Base.h"
+	"CEGUI/Singleton.h"
+	"CEGUI/NamedXMLResourceManager.h"
+	"CEGUI/Scheme.h"
+	"CEGUI/Scheme_xmlHandler.h"
+	"CEGUI/IteratorBase.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Scheme_xmlHandler.h
+	"CEGUI/XMLHandler.h"
+	"CEGUI/String.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/ScriptModule.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/Event.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/SimpleTimer.h
+	"CEGUI/Base.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/TextureTarget.h
+	"CEGUI/RenderTarget.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/TextUtils.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	<vector>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/TplInterpolators.h
+	"CEGUI/Base.h"
+	"CEGUI/Interpolator.h"
+	"CEGUI/PropertyHelper.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/TplWindowFactory.h
+	"CEGUI/WindowFactory.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/WindowFactory.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/Window.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Window.h
+	"CEGUI/Base.h"
+	"CEGUI/NamedElement.h"
+	"CEGUI/Vector.h"
+	"CEGUI/Quaternion.h"
+	"CEGUI/Rect.h"
+	"CEGUI/Size.h"
+	"CEGUI/EventSet.h"
+	"CEGUI/PropertySet.h"
+	"CEGUI/TplWindowProperty.h"
+	"CEGUI/System.h"
+	"CEGUI/GUIContext.h"
+	"CEGUI/InputEvent.h"
+	"CEGUI/UDim.h"
+	"CEGUI/WindowRenderer.h"
+	"CEGUI/TextUtils.h"
+	"CEGUI/BasicRenderedStringParser.h"
+	"CEGUI/DefaultRenderedStringParser.h"
+	<vector>
+	<set>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/WindowRenderer.h
+	"CEGUI/Window.h"
+	"CEGUI/Property.h"
+	<vector>
+	<utility>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/TplWindowRendererFactory.h
+	"CEGUI/WindowRenderer.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/TplWindowFactoryRegisterer.h
+	"CEGUI/FactoryRegisterer.h"
+	"CEGUI/WindowFactoryManager.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/WindowFactoryManager.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/Singleton.h"
+	"CEGUI/Logger.h"
+	"CEGUI/IteratorBase.h"
+	"CEGUI/WindowFactory.h"
+	"CEGUI/TplWindowFactory.h"
+	"CEGUI/Exceptions.h"
+	<map>
+	<vector>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/TplWRFactoryRegisterer.h
+	"CEGUI/FactoryRegisterer.h"
+	"CEGUI/WindowRendererManager.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/WindowRendererManager.h
+	"CEGUI/Singleton.h"
+	"CEGUI/WindowRenderer.h"
+	"CEGUI/Logger.h"
+	"CEGUI/Exceptions.h"
+	"CEGUI/TplWindowRendererFactory.h"
+	<map>
+	<vector>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/Vertex.h
+	"CEGUI/Vector.h"
+	"CEGUI/Colour.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/WindowManager.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/Singleton.h"
+	"CEGUI/Logger.h"
+	"CEGUI/IteratorBase.h"
+	"CEGUI/EventSet.h"
+	<map>
+	<vector>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/XMLAttributes.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	<map>
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/XMLParser.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/PropertySet.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/falagard/WidgetLookManager.h
+	"../Singleton.h"
+	"../String.h"
+	"../Exceptions.h"
+	"./WidgetLookFeel.h"
+	<map>
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/falagard/WidgetLookFeel.h
+	"./StateImagery.h"
+	"./WidgetComponent.h"
+	"./ImagerySection.h"
+	"./PropertyInitialiser.h"
+	"./PropertyDefinition.h"
+	"./PropertyLinkDefinition.h"
+	"./EventLinkDefinition.h"
+	"./NamedArea.h"
+	"./NamedDefinitionCollator.h"
+	<map>
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/falagard/StateImagery.h
+	"./LayerSpecification.h"
+	"../Window.h"
+	<set>
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/falagard/LayerSpecification.h
+	"./SectionSpecification.h"
+	"../Window.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/falagard/SectionSpecification.h
+	"../Window.h"
+	"../ColourRect.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/falagard/WidgetComponent.h
+	"CEGUI/falagard/Dimensions.h"
+	"CEGUI/falagard/PropertyInitialiser.h"
+	"CEGUI/falagard/EventAction.h"
+	"CEGUI/Window.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/falagard/Dimensions.h
+	"./Enums.h"
+	"../String.h"
+	"../UDim.h"
+	"../Rect.h"
+	"../XMLSerializer.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/falagard/PropertyInitialiser.h
+	"../PropertySet.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/falagard/EventAction.h
+	"CEGUI/String.h"
+	"CEGUI/Event.h"
+	"CEGUI/falagard/Enums.h"
+	<map>
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/falagard/ImagerySection.h
+	"./ImageryComponent.h"
+	"./TextComponent.h"
+	"./FrameComponent.h"
+	"../XMLSerializer.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/falagard/ImageryComponent.h
+	"./ComponentBase.h"
+	"../XMLSerializer.h"
+	"CEGUI/falagard/FormattingSetting.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/falagard/ComponentBase.h
+	"CEGUI/falagard/Dimensions.h"
+	"CEGUI/Window.h"
+	"CEGUI/ColourRect.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/falagard/FormattingSetting.h
+	"CEGUI/Window.h"
+	"CEGUI/falagard/XMLEnumHelper.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/falagard/XMLEnumHelper.h
+	"../String.h"
+	"../Window.h"
+	"CEGUI/falagard/Enums.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/falagard/TextComponent.h
+	"./ComponentBase.h"
+	"../RenderedString.h"
+	"../RefCounted.h"
+	"../FormattedRenderedString.h"
+	"CEGUI/falagard/FormattingSetting.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/falagard/FrameComponent.h
+	"CEGUI/falagard/ComponentBase.h"
+	"CEGUI/XMLSerializer.h"
+	"CEGUI/falagard/FormattingSetting.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/falagard/PropertyDefinition.h
+	"CEGUI/falagard/FalagardPropertyBase.h"
+	"CEGUI/Logger.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/falagard/FalagardPropertyBase.h
+	"CEGUI/TypedProperty.h"
+	"CEGUI/falagard/PropertyDefinitionBase.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/falagard/PropertyDefinitionBase.h
+	"CEGUI/String.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/falagard/PropertyLinkDefinition.h
+	"CEGUI/falagard/FalagardPropertyBase.h"
+	"CEGUI/IteratorBase.h"
+	<vector>
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/falagard/EventLinkDefinition.h
+	"../String.h"
+	"../IteratorBase.h"
+	<vector>
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/falagard/NamedArea.h
+	"./Dimensions.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/falagard/NamedDefinitionCollator.h
+	"CEGUI/Base.h"
+	<vector>
+	<algorithm>
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/All.h
+	"./ClippedContainer.h"
+	"./Combobox.h"
+	"./ComboDropList.h"
+	"./DefaultWindow.h"
+	"./DragContainer.h"
+	"./Editbox.h"
+	"./FrameWindow.h"
+	"./GridLayoutContainer.h"
+	"./GroupBox.h"
+	"./HorizontalLayoutContainer.h"
+	"./ItemEntry.h"
+	"./ItemListbox.h"
+	"./LayoutCell.h"
+	"./Listbox.h"
+	"./ListboxItem.h"
+	"./ListboxTextItem.h"
+	"./ListHeader.h"
+	"./Menubar.h"
+	"./MenuItem.h"
+	"./MultiColumnList.h"
+	"./MultiLineEditbox.h"
+	"./PopupMenu.h"
+	"./ProgressBar.h"
+	"./PushButton.h"
+	"./RadioButton.h"
+	"./ScrollablePane.h"
+	"./Scrollbar.h"
+	"./ScrolledContainer.h"
+	"./Slider.h"
+	"./Spinner.h"
+	"./TabButton.h"
+	"./TabControl.h"
+	"./Thumb.h"
+	"./Titlebar.h"
+	"./ToggleButton.h"
+	"./Tooltip.h"
+	"./Tree.h"
+	"./TreeItem.h"
+	"./VerticalLayoutContainer.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/ClippedContainer.h
+	"../Window.h"
+	"../WindowFactory.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/Combobox.h
+	"CEGUI/Base.h"
+	"CEGUI/Window.h"
+	"CEGUI/RegexMatcher.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/ComboDropList.h
+	"./Listbox.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/Listbox.h
+	"../Base.h"
+	"../Window.h"
+	<vector>
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/DefaultWindow.h
+	"../Window.h"
+	"../WindowFactory.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/DragContainer.h
+	"../Window.h"
+	"../WindowFactory.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/Editbox.h
+	"CEGUI/Base.h"
+	"CEGUI/Window.h"
+	"CEGUI/RegexMatcher.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/FrameWindow.h
+	"../Base.h"
+	"../Window.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/GridLayoutContainer.h
+	"./LayoutContainer.h"
+	"../WindowFactory.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/LayoutContainer.h
+	"../Window.h"
+	<map>
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/GroupBox.h
+	"../Base.h"
+	"../WindowFactory.h"
+	"./ClippedContainer.h"
+	<vector>
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/HorizontalLayoutContainer.h
+	"./SequentialLayoutContainer.h"
+	"../WindowFactory.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/SequentialLayoutContainer.h
+	"./LayoutContainer.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/ItemEntry.h
+	"../Base.h"
+	"../Window.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/ItemListbox.h
+	"./ScrolledItemListBase.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/ScrolledItemListBase.h
+	"./ItemListBase.h"
+	"./Scrollbar.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/ItemListBase.h
+	"../Base.h"
+	"../Window.h"
+	"./ItemEntry.h"
+	<vector>
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/Scrollbar.h
+	"../Base.h"
+	"../Window.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/LayoutCell.h
+	"../Window.h"
+	<map>
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/ListboxItem.h
+	"../Base.h"
+	"../String.h"
+	"../ColourRect.h"
+	"../TextUtils.h"
+	"../Size.h"
+	"../Rect.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/ListboxTextItem.h
+	"./ListboxItem.h"
+	"../BasicRenderedStringParser.h"
+	"../DefaultRenderedStringParser.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/ListHeader.h
+	"../Base.h"
+	"../Window.h"
+	"./ListHeaderSegment.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/ListHeaderSegment.h
+	"../Base.h"
+	"../Window.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/Menubar.h
+	"../Base.h"
+	"../Window.h"
+	"./MenuBase.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/MenuBase.h
+	"../Base.h"
+	"../Window.h"
+	"./ItemListBase.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/MenuItem.h
+	"../Base.h"
+	"../Window.h"
+	"./ItemEntry.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/MultiColumnList.h
+	"../Base.h"
+	"../Window.h"
+	"./ListHeader.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/MultiLineEditbox.h
+	"../Base.h"
+	"../Window.h"
+	"../Font.h"
+	<vector>
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/PopupMenu.h
+	"../Base.h"
+	"../Window.h"
+	"./MenuBase.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/ProgressBar.h
+	"../Base.h"
+	"../Window.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/PushButton.h
+	"../Base.h"
+	"./ButtonBase.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/ButtonBase.h
+	"../Base.h"
+	"../Window.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/RadioButton.h
+	"CEGUI/widgets/ToggleButton.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/ToggleButton.h
+	"CEGUI/widgets/ButtonBase.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/ScrollablePane.h
+	"../Base.h"
+	"../Window.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/ScrolledContainer.h
+	"../Window.h"
+	"../WindowFactory.h"
+	<map>
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/Slider.h
+	"../Base.h"
+	"../Window.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/Spinner.h
+	"../Base.h"
+	"../Window.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/TabButton.h
+	"../Base.h"
+	"./ButtonBase.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/TabControl.h
+	"../Base.h"
+	"../Window.h"
+	<vector>
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/Thumb.h
+	"./PushButton.h"
+	<utility>
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/Titlebar.h
+	"../Window.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/Tooltip.h
+	"../Window.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/Tree.h
+	"../Base.h"
+	"../Window.h"
+	"../WindowManager.h"
+	"./TreeItem.h"
+	"./Scrollbar.h"
+	<vector>
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/TreeItem.h
+	"../Base.h"
+	"../String.h"
+	"../ColourRect.h"
+	"../BasicRenderedStringParser.h"
+
+1386409028 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/widgets/VerticalLayoutContainer.h
+	"./SequentialLayoutContainer.h"
+	"../WindowFactory.h"
+
+1386409027 /home/lq/workspace/ws_codeblocks/cegui_ogre/libs/include/CEGUI/RendererModules/Ogre/Renderer.h
+	"../../Renderer.h"
+	"../../Size.h"
+	"../../Vector.h"
+	"CEGUI/Config.h"
+	<vector>
+
+1365049302 source:/home/lq/my-git/github/ogre_learn/code/cegui_ogre/BaseApplication.cpp
+	"BaseApplication.h"
+
+1389626096 /home/lq/my-git/github/ogre_learn/code/cegui_ogre/BaseApplication.h
+	<OgreCamera.h>
+	<OgreEntity.h>
+	<OgreLogManager.h>
+	<OgreRoot.h>
+	<OgreViewport.h>
+	<OgreSceneManager.h>
+	<OgreRenderWindow.h>
+	<OgreConfigFile.h>
+	<OIS/OISEvents.h>
+	<OIS/OISInputManager.h>
+	<OIS/OISKeyboard.h>
+	<OIS/OISMouse.h>
+	<SdkTrays.h>
+	<SdkCameraMan.h>
+	<OISMultiTouch.h>
+	<macUtils.h>
+
+1336317057 /home/lq/my-git/github/ogre_learn/libs/include/OIS/OISEvents.h
+	"OISPrereqs.h"
+
+1336317057 /home/lq/my-git/github/ogre_learn/libs/include/OIS/OISPrereqs.h
+	<vector>
+	<string>
+	<map>
+	"OISConfig.h"
+
+1336317057 /home/lq/my-git/github/ogre_learn/libs/include/OIS/OISConfig.h
+
+1336317057 /home/lq/my-git/github/ogre_learn/libs/include/OIS/OISInputManager.h
+	"OISPrereqs.h"
+
+1336317057 /home/lq/my-git/github/ogre_learn/libs/include/OIS/OISKeyboard.h
+	"OISObject.h"
+	"OISEvents.h"
+
+1336317057 /home/lq/my-git/github/ogre_learn/libs/include/OIS/OISObject.h
+	"OISPrereqs.h"
+	"OISInterface.h"
+
+1336317057 /home/lq/my-git/github/ogre_learn/libs/include/OIS/OISInterface.h
+	"OISPrereqs.h"
+
+1336317057 /home/lq/my-git/github/ogre_learn/libs/include/OIS/OISMouse.h
+	"OISObject.h"
+	"OISEvents.h"
+
+1389630338 source:/home/lq/my-git/github/ogre_learn/code/cegui_ogre/BasicTutorial7.cpp
+	"BasicTutorial7.h"
+	"windows.h"
+
+1389626139 /home/lq/my-git/github/ogre_learn/code/cegui_ogre/BasicTutorial7.h
+	"BaseApplication.h"
+	<CEGUI/CEGUI.h>
+	<CEGUI/RendererModules/Ogre/Renderer.h>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/CEGUI.h
+	"CEGUI/Affector.h"
+	"CEGUI/Animation.h"
+	"CEGUI/AnimationInstance.h"
+	"CEGUI/AnimationManager.h"
+	"CEGUI/BasicImage.h"
+	"CEGUI/BasicRenderedStringParser.h"
+	"CEGUI/BidiVisualMapping.h"
+	"CEGUI/BoundSlot.h"
+	"CEGUI/CentredRenderedString.h"
+	"CEGUI/Clipboard.h"
+	"CEGUI/Colour.h"
+	"CEGUI/ColourRect.h"
+	"CEGUI/CoordConverter.h"
+	"CEGUI/DataContainer.h"
+	"CEGUI/DefaultLogger.h"
+	"CEGUI/DefaultRenderedStringParser.h"
+	"CEGUI/DefaultResourceProvider.h"
+	"CEGUI/DynamicModule.h"
+	"CEGUI/Element.h"
+	"CEGUI/Event.h"
+	"CEGUI/EventArgs.h"
+	"CEGUI/EventSet.h"
+	"CEGUI/Exceptions.h"
+	"CEGUI/FactoryModule.h"
+	"CEGUI/FactoryRegisterer.h"
+	"CEGUI/Font.h"
+	"CEGUI/FontGlyph.h"
+	"CEGUI/FontManager.h"
+	"CEGUI/FormattedRenderedString.h"
+	"CEGUI/GeometryBuffer.h"
+	"CEGUI/GlobalEventSet.h"
+	"CEGUI/GUIContext.h"
+	"CEGUI/Image.h"
+	"CEGUI/ImageCodec.h"
+	"CEGUI/ImageManager.h"
+	"CEGUI/InputEvent.h"
+	"CEGUI/Interpolator.h"
+	"CEGUI/JustifiedRenderedString.h"
+	"CEGUI/KeyFrame.h"
+	"CEGUI/LeftAlignedRenderedString.h"
+	"CEGUI/LinkedEvent.h"
+	"CEGUI/Logger.h"
+	"CEGUI/MouseCursor.h"
+	"CEGUI/NamedElement.h"
+	"CEGUI/Property.h"
+	"CEGUI/PropertyHelper.h"
+	"CEGUI/PropertySet.h"
+	"CEGUI/Quaternion.h"
+	"CEGUI/Rect.h"
+	"CEGUI/RegexMatcher.h"
+	"CEGUI/RenderedString.h"
+	"CEGUI/RenderedStringImageComponent.h"
+	"CEGUI/RenderedStringParser.h"
+	"CEGUI/RenderedStringTextComponent.h"
+	"CEGUI/RenderedStringWidgetComponent.h"
+	"CEGUI/RenderedStringWordWrapper.h"
+	"CEGUI/RenderEffect.h"
+	"CEGUI/RenderEffectManager.h"
+	"CEGUI/Renderer.h"
+	"CEGUI/RenderingContext.h"
+	"CEGUI/RenderingSurface.h"
+	"CEGUI/RenderingWindow.h"
+	"CEGUI/RenderQueue.h"
+	"CEGUI/RenderTarget.h"
+	"CEGUI/RightAlignedRenderedString.h"
+	"CEGUI/Scheme.h"
+	"CEGUI/SchemeManager.h"
+	"CEGUI/ScriptModule.h"
+	"CEGUI/SimpleTimer.h"
+	"CEGUI/Size.h"
+	"CEGUI/String.h"
+	"CEGUI/StringTranscoder.h"
+	"CEGUI/System.h"
+	"CEGUI/SystemKeys.h"
+	"CEGUI/Texture.h"
+	"CEGUI/TextureTarget.h"
+	"CEGUI/TextUtils.h"
+	"CEGUI/TplInterpolators.h"
+	"CEGUI/TplWindowFactory.h"
+	"CEGUI/TplWindowRendererFactory.h"
+	"CEGUI/TplWindowFactoryRegisterer.h"
+	"CEGUI/TplWRFactoryRegisterer.h"
+	"CEGUI/Vector.h"
+	"CEGUI/Version.h"
+	"CEGUI/Vertex.h"
+	"CEGUI/WindowFactory.h"
+	"CEGUI/WindowFactoryManager.h"
+	"CEGUI/Window.h"
+	"CEGUI/WindowManager.h"
+	"CEGUI/WindowRendererManager.h"
+	"CEGUI/XMLAttributes.h"
+	"CEGUI/XMLHandler.h"
+	"CEGUI/XMLParser.h"
+	"CEGUI/XMLSerializer.h"
+	"CEGUI/falagard/WidgetLookManager.h"
+	"CEGUI/widgets/All.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Affector.h
+	"CEGUI/String.h"
+	"CEGUI/KeyFrame.h"
+	<map>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/String.h
+	"CEGUI/Base.h"
+	<cstring>
+	<stdexcept>
+	<cstddef>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Base.h
+	<cassert>
+	"CEGUI/Config.h"
+	"CEGUI/Version.h"
+	<string>
+	"CEGUI/ForwardRefs.h"
+	"CEGUI/MemoryAllocation.h"
+
+1389617427 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Config.h
+
+1389432861 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Version.h
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/ForwardRefs.h
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/MemoryAllocation.h
+	"CEGUI/MemoryAllocatedObject.h"
+	"CEGUI/MemorySTLWrapper.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/MemoryAllocatedObject.h
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/MemorySTLWrapper.h
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/KeyFrame.h
+	"CEGUI/String.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Animation.h
+	"CEGUI/String.h"
+	<vector>
+	<map>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/AnimationInstance.h
+	"CEGUI/EventArgs.h"
+	"CEGUI/Event.h"
+	<map>
+	<vector>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/EventArgs.h
+	"CEGUI/Base.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Event.h
+	"CEGUI/String.h"
+	"CEGUI/BoundSlot.h"
+	"CEGUI/SubscriberSlot.h"
+	"CEGUI/RefCounted.h"
+	<map>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/BoundSlot.h
+	"CEGUI/Base.h"
+	"CEGUI/SubscriberSlot.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/SubscriberSlot.h
+	"CEGUI/Base.h"
+	"CEGUI/FreeFunctionSlot.h"
+	"CEGUI/FunctorCopySlot.h"
+	"CEGUI/FunctorReferenceSlot.h"
+	"CEGUI/FunctorPointerSlot.h"
+	"CEGUI/MemberFunctionSlot.h"
+	"CEGUI/FunctorReferenceBinder.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/FreeFunctionSlot.h
+	"CEGUI/SlotFunctorBase.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/SlotFunctorBase.h
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/FunctorCopySlot.h
+	"CEGUI/SlotFunctorBase.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/FunctorReferenceSlot.h
+	"CEGUI/SlotFunctorBase.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/FunctorPointerSlot.h
+	"CEGUI/SlotFunctorBase.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/MemberFunctionSlot.h
+	"CEGUI/SlotFunctorBase.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/FunctorReferenceBinder.h
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/RefCounted.h
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/AnimationManager.h
+	"CEGUI/Singleton.h"
+	"CEGUI/String.h"
+	<map>
+	<vector>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Singleton.h
+	"CEGUI/Base.h"
+	<cassert>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/BasicImage.h
+	"CEGUI/Image.h"
+	"CEGUI/String.h"
+	"CEGUI/Rect.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Image.h
+	"CEGUI/ChainedXMLHandler.h"
+	"CEGUI/String.h"
+	"CEGUI/ColourRect.h"
+	"CEGUI/Rect.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/ChainedXMLHandler.h
+	"CEGUI/XMLHandler.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/XMLHandler.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/ColourRect.h
+	"CEGUI/Base.h"
+	"CEGUI/Colour.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Colour.h
+	"CEGUI/Base.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Rect.h
+	"CEGUI/Vector.h"
+	"CEGUI/Size.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Vector.h
+	"CEGUI/UDim.h"
+	<typeinfo>
+	<ostream>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/UDim.h
+	"CEGUI/Base.h"
+	<ostream>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Size.h
+	"CEGUI/UDim.h"
+	"CEGUI/Vector.h"
+	<typeinfo>
+	<ostream>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/BasicRenderedStringParser.h
+	"CEGUI/RenderedStringParser.h"
+	"CEGUI/Rect.h"
+	"CEGUI/ColourRect.h"
+	"CEGUI/String.h"
+	"CEGUI/falagard/Enums.h"
+	<map>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/RenderedStringParser.h
+	"CEGUI/RenderedString.h"
+	"CEGUI/String.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/RenderedString.h
+	"CEGUI/Size.h"
+	"CEGUI/Rect.h"
+	<vector>
+	<utility>
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/falagard/Enums.h
+	"CEGUI/PropertyHelper.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/PropertyHelper.h
+	"CEGUI/String.h"
+	"CEGUI/Size.h"
+	"CEGUI/Vector.h"
+	"CEGUI/Quaternion.h"
+	"CEGUI/Colour.h"
+	"CEGUI/ColourRect.h"
+	"CEGUI/UDim.h"
+	"CEGUI/Rect.h"
+	<cstdio>
+	<sstream>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Quaternion.h
+	"CEGUI/Base.h"
+	"CEGUI/Interpolator.h"
+	"CEGUI/Vector.h"
+	<cmath>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Interpolator.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/BidiVisualMapping.h
+	"CEGUI/String.h"
+	<vector>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/CentredRenderedString.h
+	"CEGUI/FormattedRenderedString.h"
+	<vector>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/FormattedRenderedString.h
+	"CEGUI/RenderedString.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Clipboard.h
+	"CEGUI/String.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/CoordConverter.h
+	"CEGUI/UDim.h"
+	"CEGUI/Vector.h"
+	"CEGUI/Size.h"
+	"CEGUI/Rect.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/DataContainer.h
+	"CEGUI/Base.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/DefaultLogger.h
+	"CEGUI/Logger.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Logger.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	<fstream>
+	<sstream>
+	<vector>
+	<utility>
+	"CEGUI/Singleton.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/DefaultRenderedStringParser.h
+	"CEGUI/RenderedStringParser.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/DefaultResourceProvider.h
+	"CEGUI/Base.h"
+	"CEGUI/ResourceProvider.h"
+	<map>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/ResourceProvider.h
+	"CEGUI/Base.h"
+	"CEGUI/DataContainer.h"
+	"CEGUI/String.h"
+	<vector>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/DynamicModule.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Element.h
+	"CEGUI/Base.h"
+	"CEGUI/PropertySet.h"
+	"CEGUI/EventSet.h"
+	"CEGUI/EventArgs.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/PropertySet.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/IteratorBase.h"
+	"CEGUI/Property.h"
+	"CEGUI/PropertyHelper.h"
+	"CEGUI/TypedProperty.h"
+	"CEGUI/TplWindowProperty.h"
+	"CEGUI/Exceptions.h"
+	<map>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/IteratorBase.h
+	"CEGUI/Base.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Property.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/XMLSerializer.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/XMLSerializer.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	<vector>
+	<iostream>
+	<CEGUI/XMLSerializer.h>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/TypedProperty.h
+	"CEGUI/Property.h"
+	"CEGUI/PropertyHelper.h"
+	"CEGUI/Exceptions.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Exceptions.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	<exception>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/TplWindowProperty.h
+	"CEGUI/TplProperty.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/TplProperty.h
+	"CEGUI/TypedProperty.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/EventSet.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/Event.h"
+	"CEGUI/IteratorBase.h"
+	<map>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/FactoryModule.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	<vector>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/FactoryRegisterer.h
+	"CEGUI/String.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Font.h
+	"CEGUI/Base.h"
+	"CEGUI/PropertySet.h"
+	"CEGUI/EventSet.h"
+	"CEGUI/String.h"
+	"CEGUI/XMLSerializer.h"
+	"CEGUI/FontGlyph.h"
+	<map>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/FontGlyph.h
+	"CEGUI/Image.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/FontManager.h
+	"CEGUI/Singleton.h"
+	"CEGUI/NamedXMLResourceManager.h"
+	"CEGUI/Font.h"
+	"CEGUI/Font_xmlHandler.h"
+	"CEGUI/IteratorBase.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/NamedXMLResourceManager.h
+	"CEGUI/EventSet.h"
+	"CEGUI/String.h"
+	"CEGUI/Exceptions.h"
+	"CEGUI/Logger.h"
+	"CEGUI/InputEvent.h"
+	"CEGUI/System.h"
+	<map>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/InputEvent.h
+	"CEGUI/Base.h"
+	"CEGUI/EventArgs.h"
+	"CEGUI/String.h"
+	"CEGUI/Vector.h"
+	"CEGUI/Size.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/System.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/Singleton.h"
+	"CEGUI/EventSet.h"
+	"CEGUI/Renderer.h"
+	"CEGUI/InputEvent.h"
+	"CEGUI/ResourceProvider.h"
+	<vector>
+	"CEGUI/Win32StringTranscoder.h"
+	"CEGUI/IconvStringTranscoder.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Renderer.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/Size.h"
+	"CEGUI/Vector.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Win32StringTranscoder.h
+	"CEGUI/StringTranscoder.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/StringTranscoder.h
+	"CEGUI/String.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/IconvStringTranscoder.h
+	"CEGUI/StringTranscoder.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Font_xmlHandler.h
+	"CEGUI/XMLHandler.h"
+	"CEGUI/String.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/GeometryBuffer.h
+	"CEGUI/Base.h"
+	"CEGUI/Renderer.h"
+	"CEGUI/Rect.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/GlobalEventSet.h
+	"CEGUI/EventSet.h"
+	"CEGUI/Singleton.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/GUIContext.h
+	"CEGUI/RenderingSurface.h"
+	"CEGUI/InjectedInputReceiver.h"
+	"CEGUI/MouseCursor.h"
+	"CEGUI/SystemKeys.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/RenderingSurface.h
+	"CEGUI/EventSet.h"
+	"CEGUI/EventArgs.h"
+	"CEGUI/RenderQueue.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/RenderQueue.h
+	"CEGUI/Base.h"
+	<vector>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/InjectedInputReceiver.h
+	"CEGUI/InputEvent.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/MouseCursor.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/Vector.h"
+	"CEGUI/Rect.h"
+	"CEGUI/EventSet.h"
+	"CEGUI/InputEvent.h"
+	"CEGUI/UDim.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/SystemKeys.h
+	"CEGUI/InputEvent.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/ImageCodec.h
+	"CEGUI/Base.h"
+	"CEGUI/DataContainer.h"
+	"CEGUI/Texture.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Texture.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/Size.h"
+	"CEGUI/Vector.h"
+	"CEGUI/Rect.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/ImageManager.h
+	"CEGUI/Singleton.h"
+	"CEGUI/ChainedXMLHandler.h"
+	"CEGUI/String.h"
+	"CEGUI/Size.h"
+	"CEGUI/ImageFactory.h"
+	"CEGUI/Logger.h"
+	"CEGUI/Exceptions.h"
+	"CEGUI/IteratorBase.h"
+	<map>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/ImageFactory.h
+	"CEGUI/Image.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/JustifiedRenderedString.h
+	"CEGUI/FormattedRenderedString.h"
+	<vector>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/LeftAlignedRenderedString.h
+	"CEGUI/FormattedRenderedString.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/LinkedEvent.h
+	"CEGUI/Event.h"
+	<vector>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/NamedElement.h
+	"CEGUI/Element.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/RegexMatcher.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/InputEvent.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/RenderedStringImageComponent.h
+	"CEGUI/RenderedStringComponent.h"
+	"CEGUI/ColourRect.h"
+	"CEGUI/String.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/RenderedStringComponent.h
+	"CEGUI/Size.h"
+	"CEGUI/Rect.h"
+	"CEGUI/falagard/Enums.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/RenderedStringTextComponent.h
+	"CEGUI/RenderedStringComponent.h"
+	"CEGUI/ColourRect.h"
+	"CEGUI/String.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/RenderedStringWidgetComponent.h
+	"CEGUI/RenderedStringComponent.h"
+	"CEGUI/String.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/RenderedStringWordWrapper.h
+	"CEGUI/FormattedRenderedString.h"
+	"CEGUI/JustifiedRenderedString.h"
+	"CEGUI/Vector.h"
+	<vector>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/RenderEffect.h
+	"CEGUI/Base.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/RenderEffectManager.h
+	"CEGUI/Singleton.h"
+	"CEGUI/IteratorBase.h"
+	"CEGUI/Logger.h"
+	"CEGUI/Exceptions.h"
+	"CEGUI/RenderEffectFactory.h"
+	<map>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/RenderEffectFactory.h
+	"CEGUI/RenderEffect.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/RenderingContext.h
+	"CEGUI/RenderingSurface.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/RenderingWindow.h
+	"CEGUI/RenderingSurface.h"
+	"CEGUI/Vector.h"
+	"CEGUI/Quaternion.h"
+	"CEGUI/Size.h"
+	"CEGUI/Rect.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/RenderTarget.h
+	"CEGUI/Base.h"
+	"CEGUI/EventSet.h"
+	"CEGUI/EventArgs.h"
+	"CEGUI/Vector.h"
+	"CEGUI/Rect.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/RightAlignedRenderedString.h
+	"CEGUI/FormattedRenderedString.h"
+	<vector>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Scheme.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/SchemeManager.h"
+	<vector>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/SchemeManager.h
+	"CEGUI/Base.h"
+	"CEGUI/Singleton.h"
+	"CEGUI/NamedXMLResourceManager.h"
+	"CEGUI/Scheme.h"
+	"CEGUI/Scheme_xmlHandler.h"
+	"CEGUI/IteratorBase.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Scheme_xmlHandler.h
+	"CEGUI/XMLHandler.h"
+	"CEGUI/String.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/ScriptModule.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/Event.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/SimpleTimer.h
+	"CEGUI/Base.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/TextureTarget.h
+	"CEGUI/RenderTarget.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/TextUtils.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	<vector>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/TplInterpolators.h
+	"CEGUI/Base.h"
+	"CEGUI/Interpolator.h"
+	"CEGUI/PropertyHelper.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/TplWindowFactory.h
+	"CEGUI/WindowFactory.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/WindowFactory.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/Window.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Window.h
+	"CEGUI/Base.h"
+	"CEGUI/NamedElement.h"
+	"CEGUI/Vector.h"
+	"CEGUI/Quaternion.h"
+	"CEGUI/Rect.h"
+	"CEGUI/Size.h"
+	"CEGUI/EventSet.h"
+	"CEGUI/PropertySet.h"
+	"CEGUI/TplWindowProperty.h"
+	"CEGUI/System.h"
+	"CEGUI/GUIContext.h"
+	"CEGUI/InputEvent.h"
+	"CEGUI/UDim.h"
+	"CEGUI/WindowRenderer.h"
+	"CEGUI/TextUtils.h"
+	"CEGUI/BasicRenderedStringParser.h"
+	"CEGUI/DefaultRenderedStringParser.h"
+	<vector>
+	<set>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/WindowRenderer.h
+	"CEGUI/Window.h"
+	"CEGUI/Property.h"
+	<vector>
+	<utility>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/TplWindowRendererFactory.h
+	"CEGUI/WindowRenderer.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/TplWindowFactoryRegisterer.h
+	"CEGUI/FactoryRegisterer.h"
+	"CEGUI/WindowFactoryManager.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/WindowFactoryManager.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/Singleton.h"
+	"CEGUI/Logger.h"
+	"CEGUI/IteratorBase.h"
+	"CEGUI/WindowFactory.h"
+	"CEGUI/TplWindowFactory.h"
+	"CEGUI/Exceptions.h"
+	<map>
+	<vector>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/TplWRFactoryRegisterer.h
+	"CEGUI/FactoryRegisterer.h"
+	"CEGUI/WindowRendererManager.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/WindowRendererManager.h
+	"CEGUI/Singleton.h"
+	"CEGUI/WindowRenderer.h"
+	"CEGUI/Logger.h"
+	"CEGUI/Exceptions.h"
+	"CEGUI/TplWindowRendererFactory.h"
+	<map>
+	<vector>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/Vertex.h
+	"CEGUI/Vector.h"
+	"CEGUI/Colour.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/WindowManager.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/Singleton.h"
+	"CEGUI/Logger.h"
+	"CEGUI/IteratorBase.h"
+	"CEGUI/EventSet.h"
+	<map>
+	<vector>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/XMLAttributes.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	<map>
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/XMLParser.h
+	"CEGUI/Base.h"
+	"CEGUI/String.h"
+	"CEGUI/PropertySet.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/falagard/WidgetLookManager.h
+	"../Singleton.h"
+	"../String.h"
+	"../Exceptions.h"
+	"./WidgetLookFeel.h"
+	<map>
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/falagard/WidgetLookFeel.h
+	"./StateImagery.h"
+	"./WidgetComponent.h"
+	"./ImagerySection.h"
+	"./PropertyInitialiser.h"
+	"./PropertyDefinition.h"
+	"./PropertyLinkDefinition.h"
+	"./EventLinkDefinition.h"
+	"./NamedArea.h"
+	"./NamedDefinitionCollator.h"
+	<map>
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/falagard/StateImagery.h
+	"./LayerSpecification.h"
+	"../Window.h"
+	<set>
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/falagard/LayerSpecification.h
+	"./SectionSpecification.h"
+	"../Window.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/falagard/SectionSpecification.h
+	"../Window.h"
+	"../ColourRect.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/falagard/WidgetComponent.h
+	"CEGUI/falagard/Dimensions.h"
+	"CEGUI/falagard/PropertyInitialiser.h"
+	"CEGUI/falagard/EventAction.h"
+	"CEGUI/Window.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/falagard/Dimensions.h
+	"./Enums.h"
+	"../String.h"
+	"../UDim.h"
+	"../Rect.h"
+	"../XMLSerializer.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/falagard/PropertyInitialiser.h
+	"../PropertySet.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/falagard/EventAction.h
+	"CEGUI/String.h"
+	"CEGUI/Event.h"
+	"CEGUI/falagard/Enums.h"
+	<map>
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/falagard/ImagerySection.h
+	"./ImageryComponent.h"
+	"./TextComponent.h"
+	"./FrameComponent.h"
+	"../XMLSerializer.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/falagard/ImageryComponent.h
+	"./ComponentBase.h"
+	"../XMLSerializer.h"
+	"CEGUI/falagard/FormattingSetting.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/falagard/ComponentBase.h
+	"CEGUI/falagard/Dimensions.h"
+	"CEGUI/Window.h"
+	"CEGUI/ColourRect.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/falagard/FormattingSetting.h
+	"CEGUI/Window.h"
+	"CEGUI/falagard/XMLEnumHelper.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/falagard/XMLEnumHelper.h
+	"../String.h"
+	"../Window.h"
+	"CEGUI/falagard/Enums.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/falagard/TextComponent.h
+	"./ComponentBase.h"
+	"../RenderedString.h"
+	"../RefCounted.h"
+	"../FormattedRenderedString.h"
+	"CEGUI/falagard/FormattingSetting.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/falagard/FrameComponent.h
+	"CEGUI/falagard/ComponentBase.h"
+	"CEGUI/XMLSerializer.h"
+	"CEGUI/falagard/FormattingSetting.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/falagard/PropertyDefinition.h
+	"CEGUI/falagard/FalagardPropertyBase.h"
+	"CEGUI/Logger.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/falagard/FalagardPropertyBase.h
+	"CEGUI/TypedProperty.h"
+	"CEGUI/falagard/PropertyDefinitionBase.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/falagard/PropertyDefinitionBase.h
+	"CEGUI/String.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/falagard/PropertyLinkDefinition.h
+	"CEGUI/falagard/FalagardPropertyBase.h"
+	"CEGUI/IteratorBase.h"
+	<vector>
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/falagard/EventLinkDefinition.h
+	"../String.h"
+	"../IteratorBase.h"
+	<vector>
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/falagard/NamedArea.h
+	"./Dimensions.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/falagard/NamedDefinitionCollator.h
+	"CEGUI/Base.h"
+	<vector>
+	<algorithm>
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/All.h
+	"./ClippedContainer.h"
+	"./Combobox.h"
+	"./ComboDropList.h"
+	"./DefaultWindow.h"
+	"./DragContainer.h"
+	"./Editbox.h"
+	"./FrameWindow.h"
+	"./GridLayoutContainer.h"
+	"./GroupBox.h"
+	"./HorizontalLayoutContainer.h"
+	"./ItemEntry.h"
+	"./ItemListbox.h"
+	"./LayoutCell.h"
+	"./Listbox.h"
+	"./ListboxItem.h"
+	"./ListboxTextItem.h"
+	"./ListHeader.h"
+	"./Menubar.h"
+	"./MenuItem.h"
+	"./MultiColumnList.h"
+	"./MultiLineEditbox.h"
+	"./PopupMenu.h"
+	"./ProgressBar.h"
+	"./PushButton.h"
+	"./RadioButton.h"
+	"./ScrollablePane.h"
+	"./Scrollbar.h"
+	"./ScrolledContainer.h"
+	"./Slider.h"
+	"./Spinner.h"
+	"./TabButton.h"
+	"./TabControl.h"
+	"./Thumb.h"
+	"./Titlebar.h"
+	"./ToggleButton.h"
+	"./Tooltip.h"
+	"./Tree.h"
+	"./TreeItem.h"
+	"./VerticalLayoutContainer.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/ClippedContainer.h
+	"../Window.h"
+	"../WindowFactory.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/Combobox.h
+	"CEGUI/Base.h"
+	"CEGUI/Window.h"
+	"CEGUI/RegexMatcher.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/ComboDropList.h
+	"./Listbox.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/Listbox.h
+	"../Base.h"
+	"../Window.h"
+	<vector>
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/DefaultWindow.h
+	"../Window.h"
+	"../WindowFactory.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/DragContainer.h
+	"../Window.h"
+	"../WindowFactory.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/Editbox.h
+	"CEGUI/Base.h"
+	"CEGUI/Window.h"
+	"CEGUI/RegexMatcher.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/FrameWindow.h
+	"../Base.h"
+	"../Window.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/GridLayoutContainer.h
+	"./LayoutContainer.h"
+	"../WindowFactory.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/LayoutContainer.h
+	"../Window.h"
+	<map>
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/GroupBox.h
+	"../Base.h"
+	"../WindowFactory.h"
+	"./ClippedContainer.h"
+	<vector>
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/HorizontalLayoutContainer.h
+	"./SequentialLayoutContainer.h"
+	"../WindowFactory.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/SequentialLayoutContainer.h
+	"./LayoutContainer.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/ItemEntry.h
+	"../Base.h"
+	"../Window.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/ItemListbox.h
+	"./ScrolledItemListBase.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/ScrolledItemListBase.h
+	"./ItemListBase.h"
+	"./Scrollbar.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/ItemListBase.h
+	"../Base.h"
+	"../Window.h"
+	"./ItemEntry.h"
+	<vector>
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/Scrollbar.h
+	"../Base.h"
+	"../Window.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/LayoutCell.h
+	"../Window.h"
+	<map>
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/ListboxItem.h
+	"../Base.h"
+	"../String.h"
+	"../ColourRect.h"
+	"../TextUtils.h"
+	"../Size.h"
+	"../Rect.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/ListboxTextItem.h
+	"./ListboxItem.h"
+	"../BasicRenderedStringParser.h"
+	"../DefaultRenderedStringParser.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/ListHeader.h
+	"../Base.h"
+	"../Window.h"
+	"./ListHeaderSegment.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/ListHeaderSegment.h
+	"../Base.h"
+	"../Window.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/Menubar.h
+	"../Base.h"
+	"../Window.h"
+	"./MenuBase.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/MenuBase.h
+	"../Base.h"
+	"../Window.h"
+	"./ItemListBase.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/MenuItem.h
+	"../Base.h"
+	"../Window.h"
+	"./ItemEntry.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/MultiColumnList.h
+	"../Base.h"
+	"../Window.h"
+	"./ListHeader.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/MultiLineEditbox.h
+	"../Base.h"
+	"../Window.h"
+	"../Font.h"
+	<vector>
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/PopupMenu.h
+	"../Base.h"
+	"../Window.h"
+	"./MenuBase.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/ProgressBar.h
+	"../Base.h"
+	"../Window.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/PushButton.h
+	"../Base.h"
+	"./ButtonBase.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/ButtonBase.h
+	"../Base.h"
+	"../Window.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/RadioButton.h
+	"CEGUI/widgets/ToggleButton.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/ToggleButton.h
+	"CEGUI/widgets/ButtonBase.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/ScrollablePane.h
+	"../Base.h"
+	"../Window.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/ScrolledContainer.h
+	"../Window.h"
+	"../WindowFactory.h"
+	<map>
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/Slider.h
+	"../Base.h"
+	"../Window.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/Spinner.h
+	"../Base.h"
+	"../Window.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/TabButton.h
+	"../Base.h"
+	"./ButtonBase.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/TabControl.h
+	"../Base.h"
+	"../Window.h"
+	<vector>
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/Thumb.h
+	"./PushButton.h"
+	<utility>
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/Titlebar.h
+	"../Window.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/Tooltip.h
+	"../Window.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/Tree.h
+	"../Base.h"
+	"../Window.h"
+	"../WindowManager.h"
+	"./TreeItem.h"
+	"./Scrollbar.h"
+	<vector>
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/TreeItem.h
+	"../Base.h"
+	"../String.h"
+	"../ColourRect.h"
+	"../BasicRenderedStringParser.h"
+
+1386409028 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/widgets/VerticalLayoutContainer.h
+	"./SequentialLayoutContainer.h"
+	"../WindowFactory.h"
+
+1386409027 /home/lq/my-git/github/ogre_learn/libs/include/CEGUI/RendererModules/Ogre/Renderer.h
+	"../../Renderer.h"
+	"../../Size.h"
+	"../../Vector.h"
+	"CEGUI/Config.h"
+	<vector>
+

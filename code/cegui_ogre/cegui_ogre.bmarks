@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<BrowseTracker_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="BaseApplication.h" open="1" top="0" tabpos="5">
+		<Cursor position="963" topLine="19" />
+		<BrowseMarks positions="3155,3172,3560" />
+	</File>
+	<File name="BaseApplication.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="11272" topLine="318" />
+		<BrowseMarks positions="7315,8140" />
+	</File>
+	<File name="BasicTutorial7.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="1249" topLine="69" />
+		<BrowseMarks positions="1130,1693,2094,2212,4367,6311,7614,7947,8039,8826" />
+		<Book_Marks positions="3568" />
+	</File>
+	<File name="BasicTutorial7.h" open="1" top="0" tabpos="3">
+		<Cursor position="735" topLine="12" />
+		<BrowseMarks positions="734" />
+		<Book_Marks positions="734" />
+	</File>
+</BrowseTracker_layout_file>

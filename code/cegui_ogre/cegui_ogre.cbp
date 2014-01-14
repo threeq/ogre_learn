@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cegui_ogre" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Config/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="./cegui_ogre" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="./cegui_ogre" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="`pkg-config --cflags OGRE`" />
+			<Add option="-fexceptions" />
+			<Add directory="../../libs/include" />
+		</Compiler>
+		<Linker>
+			<Add library="GL" />
+			<Add library="boost_system" />
+			<Add library="../../libs/lib/libCEGUIBase-0.so" />
+			<Add library="../../libs/lib/libCEGUICommonDialogs-0.so" />
+			<Add library="../../libs/lib/libCEGUINullRenderer-0.so" />
+			<Add library="../../libs/lib/libCEGUIOgreRenderer-0.so" />
+			<Add library="../../libs/lib/libOgreMain.so" />
+			<Add library="../../libs/lib/libOgrePaging.so" />
+			<Add library="../../libs/lib/libOgreProperty.so" />
+			<Add library="../../libs/lib/libOgreRTShaderSystem.so" />
+			<Add library="../../libs/lib/libOgreTerrain.so" />
+			<Add library="../../libs/lib/libOIS-1.2.0.so" />
+			<Add directory="/bin/Debug" />
+			<Add directory="/bin/Release" />
+		</Linker>
+		<Unit filename="BaseApplication.cpp" />
+		<Unit filename="BaseApplication.h" />
+		<Unit filename="BasicTutorial7.cpp" />
+		<Unit filename="BasicTutorial7.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
