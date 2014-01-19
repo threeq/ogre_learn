@@ -53,6 +53,12 @@
 		</Linker>
 		<Unit filename="BaseApplication.cpp" />
 		<Unit filename="BaseApplication.h" />
+		<Unit filename="BasicTutorial1.cpp" />
+		<Unit filename="BasicTutorial1.h" />
+		<Unit filename="BasicTutorial2.cpp" />
+		<Unit filename="BasicTutorial2.h" />
+		<Unit filename="BasicTutorial3.cpp" />
+		<Unit filename="BasicTutorial3.h" />
 		<Unit filename="BasicTutorial7.cpp" />
 		<Unit filename="BasicTutorial7.h" />
 		<Unit filename="config/ogre.cfg">
@@ -69,6 +75,15 @@
 			<code_completion />
 			<envvars />
 			<debugger />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>

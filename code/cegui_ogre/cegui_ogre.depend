@@ -1393,9 +1393,13 @@
 	"Ogre.h"
 	<limits>
 
-1389714552 source:/home/lq/my-git/github/ogre_learn/code/cegui_ogre/BasicTutorial7.cpp
+1390139028 source:/home/lq/my-git/github/ogre_learn/code/cegui_ogre/BasicTutorial7.cpp
 	<CEGUI/System.h>
 	<CEGUI/Logger.h>
+	<CEGUI/MouseCursor.h>
+	<CEGUI/RendererModules/Ogre/ResourceProvider.h>
+	<CEGUI/RendererModules/Ogre/ImageCodec.h>
+	<CEGUI/RendererModules/Ogre/Renderer.h>
 	"BasicTutorial7.h"
 
 1389626139 /home/lq/my-git/github/ogre_learn/code/cegui_ogre/BasicTutorial7.h
@@ -2518,7 +2522,75 @@
 	"CEGUI/Config.h"
 	<vector>
 
-1389711434 source:/home/lq/my-git/github/ogre_learn/code/cegui_ogre/main.cpp
+1390144678 source:/home/lq/my-git/github/ogre_learn/code/cegui_ogre/main.cpp
+	"BasicTutorial1.h"
+	"BasicTutorial2.h"
+	"BasicTutorial3.h"
 	"BasicTutorial7.h"
 	"windows.h"
+
+1386409027 /home/lq/my-git/libs/include/CEGUI/RendererModules/Ogre/ResourceProvider.h
+	"../../ResourceProvider.h"
+	"CEGUI/RendererModules/Ogre/Renderer.h"
+
+1386409027 /home/lq/my-git/libs/include/CEGUI/RendererModules/Ogre/ImageCodec.h
+	"../../ImageCodec.h"
+	"CEGUI/RendererModules/Ogre/Renderer.h"
+
+1390139654 /home/lq/my-git/github/ogre_learn/code/cegui_ogre/TutorialApplication.h
+	"BaseApplication.h"
+
+1390140844 source:/home/lq/my-git/github/ogre_learn/code/cegui_ogre/TutorialApplication.cpp
+	"TutorialApplication.h"
+
+1390143683 source:/home/lq/my-git/github/ogre_learn/code/cegui_ogre/BasicTutorial2.cpp
+	"BasicTutorial2.h"
+
+1390141181 /home/lq/my-git/github/ogre_learn/code/cegui_ogre/BasicTutorial2.h
+	"BaseApplication.h"
+
+1390142060 source:/home/lq/my-git/github/ogre_learn/code/cegui_ogre/BasicTutorial1.cpp
+	"BasicTutorial1.h"
+
+1390141890 /home/lq/my-git/github/ogre_learn/code/cegui_ogre/BasicTutorial1.h
+	"BaseApplication.h"
+
+1390144735 /home/lq/my-git/github/ogre_learn/code/cegui_ogre/BasicTutorial3.h
+	<Terrain/OgreTerrain.h>
+	<Terrain/OgreTerrainGroup.h>
+	"BaseApplication.h"
+
+1346563634 /usr/local/include/OGRE/Terrain/OgreTerrain.h
+	"OgreTerrainPrerequisites.h"
+	"OgreCommon.h"
+	"OgreVector3.h"
+	"OgreAxisAlignedBox.h"
+	"OgreSceneManager.h"
+	"OgreTerrainMaterialGenerator.h"
+	"OgreTerrainLayerBlendMap.h"
+	"OgreWorkQueue.h"
+
+1346563634 /usr/local/include/OGRE/Terrain/OgreTerrainPrerequisites.h
+	"OgrePrerequisites.h"
+
+1346563634 /usr/local/include/OGRE/Terrain/OgreTerrainMaterialGenerator.h
+	"OgreTerrainPrerequisites.h"
+	"OgrePixelFormat.h"
+	"OgreMaterial.h"
+	"OgreTexture.h"
+
+1346563634 /usr/local/include/OGRE/Terrain/OgreTerrainLayerBlendMap.h
+	"OgreTerrainPrerequisites.h"
+	"OgreCommon.h"
+	"OgreVector3.h"
+	"OgreDataStream.h"
+
+1346563634 /usr/local/include/OGRE/Terrain/OgreTerrainGroup.h
+	"OgreTerrainPrerequisites.h"
+	"OgreTerrain.h"
+	"OgreWorkQueue.h"
+	"OgreIteratorWrappers.h"
+
+1390144538 source:/home/lq/my-git/github/ogre_learn/code/cegui_ogre/BasicTutorial3.cpp
+	"BasicTutorial3.h"
 

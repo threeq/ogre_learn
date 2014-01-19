@@ -17,6 +17,7 @@ This source file is part of the
 
 #include <CEGUI/System.h>
 #include <CEGUI/Logger.h>
+#include <CEGUI/MouseCursor.h>
 #include <CEGUI/RendererModules/Ogre/ResourceProvider.h>
 #include <CEGUI/RendererModules/Ogre/ImageCodec.h>
 #include <CEGUI/RendererModules/Ogre/Renderer.h>
@@ -45,6 +46,7 @@ void BasicTutorial7::createScene(void)
     CEGUI::OgreImageCodec& ic = CEGUI::OgreRenderer::createOgreImageCodec();
     CEGUI::System::create(*mRenderer, &rp, 0, &ic, 0,  "", "logs/CEGUI.log");
 
+    //CEGUI::MouseCursor::setVisible(true);
     // 设置日志文件，非追加方式
     //CEGUI::Logger::getSingleton().setLogFilename("logs/CEGUI.log");
 
@@ -57,7 +59,7 @@ void BasicTutorial7::createScene(void)
 
     CEGUI::SchemeManager::getSingleton().createFromFile("TaharezLook.scheme");
     CEGUI::System::getSingleton().getDefaultGUIContext().getMouseCursor().setDefaultImage("TaharezLook/MouseArrow");
-
+    CEGUI::System::getSingleton().getDefaultGUIContext().getMouseCursor().show();
     // Do not add this to the program
     //CEGUI::Window *guiRoot = CEGUI::WindowManager::getSingleton().loadLayoutFromFile("TextDemo.layout");
     //CEGUI::System::getSingleton().getDefaultGUIContext().setRootWindow(guiRoot);
@@ -221,13 +223,7 @@ CEGUI::MouseButton convertButton(OIS::MouseButtonID buttonID)
 
 bool BasicTutorial7::mouseMoved( const OIS::MouseEvent &arg )
 {
-    //CEGUI::System &sys = CEGUI::System::getSingleton();
-    //sys.injectMouseMove(arg.state.X.rel, arg.state.Y.rel);
-    // Scroll wheel.
-    //if (arg.state.Z.rel)
-    //    sys.injectMouseMove(arg.state.Z.rel / 120.0f);
-    //else
-        mCameraMan->injectMouseMove(arg);
+    mCameraMan->injectMouseMove(arg);
     return true;
 }
 
