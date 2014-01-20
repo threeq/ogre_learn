@@ -1,54 +1,57 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <BrowseTracker_layout_file>
 	<ActiveTarget name="Release" />
-	<File name="BaseApplication.cpp" open="0" top="0" tabpos="1">
-		<Cursor position="11132" topLine="298" />
-		<BrowseMarks positions="1776,7327,7371,7680,7714,7974,8253" />
-		<Book_Marks positions="" />
-	</File>
-	<File name="config/resources.cfg" open="0" top="0" tabpos="0">
-		<Cursor position="1257" topLine="35" />
-		<BrowseMarks positions="" />
-		<Book_Marks positions="" />
-	</File>
-	<File name="BasicTutorial3.cpp" open="1" top="1" tabpos="0">
-		<Cursor position="0" topLine="0" />
-		<BrowseMarks positions="8704,6914" />
-		<Book_Marks positions="" />
-	</File>
 	<File name="BasicTutorial7.h" open="0" top="0" tabpos="4">
 		<Cursor position="796" topLine="33" />
 		<BrowseMarks positions="699,1486" />
 		<Book_Marks positions="734" />
 	</File>
-	<File name="BasicTutorial1.cpp" open="1" top="0" tabpos="0">
-		<Cursor position="59" topLine="13" />
-		<BrowseMarks positions="29" />
-		<Book_Marks positions="" />
-	</File>
-	<File name="main.cpp" open="1" top="0" tabpos="0">
-		<Cursor position="462" topLine="15" />
-		<BrowseMarks positions="29,425,520" />
-		<Book_Marks positions="" />
-	</File>
-	<File name="BasicTutorial3.h" open="1" top="0" tabpos="0">
-		<Cursor position="0" topLine="0" />
-		<BrowseMarks positions="714" />
-		<Book_Marks positions="" />
-	</File>
-	<File name="BasicTutorial7.cpp" open="1" top="0" tabpos="3">
-		<Cursor position="8544" topLine="121" />
+	<File name="BasicTutorial7.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="615" topLine="28" />
 		<BrowseMarks positions="590,1646,1724,1725,8095,8486" />
 		<Book_Marks positions="3568,8196" />
 	</File>
-	<File name="BasicTutorial2.cpp" open="1" top="0" tabpos="0">
-		<Cursor position="43" topLine="0" />
+	<File name="BasicTutorial4.h" open="1" top="0" tabpos="0">
+		<Cursor position="0" topLine="0" />
 		<BrowseMarks positions="" />
 		<Book_Marks positions="" />
+	</File>
+	<File name="BasicTutorial3.h" open="0" top="0" tabpos="5">
+		<Cursor position="824" topLine="0" />
+		<BrowseMarks positions="714" />
+		<Book_Marks positions="824" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="470" topLine="15" />
+		<BrowseMarks positions="29,453,548,105" />
+		<Book_Marks positions="0" />
 	</File>
 	<File name="BaseApplication.h" open="0" top="0" tabpos="2">
 		<Cursor position="1523" topLine="43" />
 		<BrowseMarks positions="3140,3225,3603" />
 		<Book_Marks positions="0" />
+	</File>
+	<File name="BasicTutorial2.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="1067" topLine="34" />
+		<BrowseMarks positions="" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="BasicTutorial3.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="1607" topLine="39" />
+		<BrowseMarks positions="1559,6884,8704" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="BaseApplication.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="3805" topLine="126" />
+		<BrowseMarks positions="1776,7327,7371,7680,7714,7974,8253,3885" />
+		<Book_Marks positions="" />
+	</File>
+	<File name="config/resources.cfg" open="0" top="0" tabpos="0">
+		<Cursor position="1257" topLine="35" />
+	</File>
+	<File name="BasicTutorial1.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="324" topLine="12" />
+		<BrowseMarks positions="29" />
+		<Book_Marks positions="" />
 	</File>
 </BrowseTracker_layout_file>
