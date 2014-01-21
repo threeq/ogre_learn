@@ -2522,11 +2522,12 @@
 	"CEGUI/Config.h"
 	<vector>
 
-1390228098 source:/home/lq/my-git/github/ogre_learn/code/cegui_ogre/main.cpp
+1390312999 source:/home/lq/my-git/github/ogre_learn/code/cegui_ogre/main.cpp
 	"BasicTutorial1.h"
 	"BasicTutorial2.h"
 	"BasicTutorial3.h"
 	"BasicTutorial4.h"
+	"BasicTutorial5.h"
 	"BasicTutorial7.h"
 	"windows.h"
 
@@ -2600,4 +2601,10 @@
 
 1390230592 source:/home/lq/my-git/github/ogre_learn/code/cegui_ogre/BasicTutorial4.cpp
 	"BasicTutorial4.h"
+
+1390312963 source:/home/lq/my-git/github/ogre_learn/code/cegui_ogre/BasicTutorial5.cpp
+	"BasicTutorial5.h"
+
+1390311190 /home/lq/my-git/github/ogre_learn/code/cegui_ogre/BasicTutorial5.h
+	"BaseApplication.h"
 

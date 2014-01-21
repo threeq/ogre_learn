@@ -3,6 +3,7 @@
 #include "BasicTutorial2.h"
 #include "BasicTutorial3.h"
 #include "BasicTutorial4.h"
+#include "BasicTutorial5.h"
 #include "BasicTutorial7.h"
 
 #if OGRE_PLATFORM == OGRE_PLATFORM_WIN32
@@ -25,10 +26,11 @@ extern "C" {
         BasicTutorial2 app2;
         BasicTutorial3 app3;
         BasicTutorial4 app4;
+        BasicTutorial5 app5;
         BasicTutorial7 app7;
 
         try {
-            app4.go();
+            app5.go();
         } catch( Ogre::Exception& e ) {
 #if OGRE_PLATFORM == OGRE_PLATFORM_WIN32
             MessageBox( NULL, e.getFullDescription().c_str(), "An exception has occured!", MB_OK | MB_ICONERROR | MB_TASKMODAL);
