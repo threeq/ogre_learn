@@ -61,6 +61,8 @@
 		<Unit filename="BasicTutorial3.h" />
 		<Unit filename="BasicTutorial4.cpp" />
 		<Unit filename="BasicTutorial4.h" />
+		<Unit filename="BasicTutorial5.cpp" />
+		<Unit filename="BasicTutorial5.h" />
 		<Unit filename="BasicTutorial7.cpp" />
 		<Unit filename="BasicTutorial7.h" />
 		<Unit filename="config/ogre.cfg">
