@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cegui_ogre" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Config\;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="./cegui_ogre" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="./cegui_ogre" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="D:/libs/ogre3d-1.8.1/include" />
+			<Add directory="D:/libs/ogre3d-1.8.1/include/OGRE" />
+			<Add directory="D:/libs/ogre3d-1.8.1/boost" />
+			<Add directory="D:/libs/cegui-0.8.3/include" />
+		</Compiler>
+		<Linker>
+			<Add library="D:\libs\ogre3d-1.8.1\boost\lib\libboost_system-mgw47-mt-1_51.a" />
+			<Add library="D:\libs\ogre3d-1.8.1\lib\release\libOgreMain.dll.a" />
+			<Add library="D:\libs\ogre3d-1.8.1\lib\release\libOgrePaging.dll.a" />
+			<Add library="D:\libs\ogre3d-1.8.1\lib\release\libOgreProperty.dll.a" />
+			<Add library="D:\libs\ogre3d-1.8.1\lib\release\libOgreRTShaderSystem.dll.a" />
+			<Add library="D:\libs\ogre3d-1.8.1\lib\release\libOgreTerrain.dll.a" />
+			<Add library="D:\libs\ogre3d-1.8.1\lib\release\libOIS.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUIBase-0.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUICommonDialogs-0.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUICommonDialogsDemo.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUICoreWindowRendererSet.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUIDemo6.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUIDragDropDemo.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUIEditboxValidationDemo.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUIEffectsDemo.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUIExpatParser.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUIFontDemo.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUIGameMenuDemo.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUIHelloWorldDemo.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUIHUDDemo.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUIInventoryDemo.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUILuaScriptModule-0.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUIMinesweeper.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUINullRenderer-0.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUIOgreRenderer-0.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUIOpenGLRenderer-0.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUIScrollablePaneDemo.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUISILLYImageCodec.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUISTBImageCodec.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUITabControlDemo.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUITextDemo.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUITGAImageCodec.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUITreeDemo.dll.a" />
+			<Add library="D:\libs\cegui-0.8.3\lib\libCEGUIWidgetDemo.dll.a" />
+			<Add directory="/bin/Release" />
+			<Add directory="/bin/Debug" />
+		</Linker>
+		<Unit filename="BaseApplication.cpp" />
+		<Unit filename="BaseApplication.h" />
+		<Unit filename="BasicTutorial1.cpp" />
+		<Unit filename="BasicTutorial1.h" />
+		<Unit filename="BasicTutorial2.cpp" />
+		<Unit filename="BasicTutorial2.h" />
+		<Unit filename="BasicTutorial3.cpp" />
+		<Unit filename="BasicTutorial3.h" />
+		<Unit filename="BasicTutorial4.cpp" />
+		<Unit filename="BasicTutorial4.h" />
+		<Unit filename="BasicTutorial5.cpp" />
+		<Unit filename="BasicTutorial5.h" />
+		<Unit filename="BasicTutorial7.cpp" />
+		<Unit filename="BasicTutorial7.h" />
+		<Unit filename="config/ogre.cfg">
+			<Option virtualFolder="Config/" />
+		</Unit>
+		<Unit filename="config/plugins.cfg">
+			<Option virtualFolder="Config/" />
+		</Unit>
+		<Unit filename="config/resources.cfg">
+			<Option virtualFolder="Config/" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
